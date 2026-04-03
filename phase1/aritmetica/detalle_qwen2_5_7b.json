@@ -1,0 +1,63 @@
+{
+  "nombre": "qwen2.5:7b",
+  "via": "ollama_asus",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 0,
+  "errores_api": 3,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "error_api": "404 Client Error: Not Found for url: http://100.85.169.71:11434/api/generate",
+      "tiempo_ms": 564.2127990722656
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "error_api": "404 Client Error: Not Found for url: http://100.85.169.71:11434/api/generate",
+      "tiempo_ms": 528.5382270812988
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "error_api": "404 Client Error: Not Found for url: http://100.85.169.71:11434/api/generate",
+      "tiempo_ms": 411.501407623291
+    }
+  ]
+}

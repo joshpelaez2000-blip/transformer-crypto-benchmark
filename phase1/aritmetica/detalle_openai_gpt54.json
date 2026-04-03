@@ -1,0 +1,488 @@
+{
+  "agent_id": "openai_gpt54",
+  "nombre": "GPT-5.4",
+  "provider": "openai",
+  "model": "gpt-5.4",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 5,
+      "total": 10,
+      "accuracy": 50.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 10.0,
+  "tiempo_promedio_ms": 5461.3,
+  "errores_api": 0,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 3441.9
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "16952153",
+      "respuesta_parsed": 16952153,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 6878.0
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 7908.5
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3279548801",
+      "respuesta_parsed": 3279548801,
+      "respuesta_correcta": 3279548801,
+      "acerto": true,
+      "tiempo_ms": 7208.8
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3157242092",
+      "respuesta_parsed": 3157242092,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 5502.7
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2011789575",
+      "respuesta_parsed": 2011789575,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 5390.9
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2129144230",
+      "respuesta_parsed": 2129144230,
+      "respuesta_correcta": 2129144230,
+      "acerto": true,
+      "tiempo_ms": 5454.3
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 5744.5
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "79389748",
+      "respuesta_parsed": 79389748,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 5543.1
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2040981824",
+      "respuesta_parsed": 2040981824,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 6279.2
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "1077095965",
+      "respuesta_parsed": 1077095965,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 5431.3
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "2887188588",
+      "respuesta_parsed": 2887188588,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 5741.8
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "3202992542",
+      "respuesta_parsed": 3202992542,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 5571.0
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "2608686064",
+      "respuesta_parsed": 2608686064,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 5674.7
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "1380846426",
+      "respuesta_parsed": 1380846426,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 6189.3
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "2857160923",
+      "respuesta_parsed": 2857160923,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 5325.7
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "2433377427",
+      "respuesta_parsed": 2433377427,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 5397.1
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "2976264542",
+      "respuesta_parsed": 2976264542,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 5376.0
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "354403156",
+      "respuesta_parsed": 354403156,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 5505.1
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "697507714",
+      "respuesta_parsed": 697507714,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 6163.0
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "1123035679",
+      "respuesta_parsed": 1123035679,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 1414.3
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "1610612736",
+      "respuesta_parsed": 1610612736,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 5345.8
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "394316527",
+      "respuesta_parsed": 394316527,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 6268.8
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "15107670",
+      "respuesta_parsed": 15107670,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 5698.2
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "8",
+      "respuesta_parsed": 8,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 5385.1
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "2579355609",
+      "respuesta_parsed": 2579355609,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 6075.5
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "1245992975",
+      "respuesta_parsed": 1245992975,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 5412.9
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "268435456",
+      "respuesta_parsed": 268435456,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 5462.0
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "1989092676",
+      "respuesta_parsed": 1989092676,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 5339.9
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "3819281617",
+      "respuesta_parsed": 3819281617,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 5592.5
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "268435456",
+      "respuesta_parsed": 268435456,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 5325.9
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "2240444441",
+      "respuesta_parsed": 2240444441,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 807.4
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "46912513",
+      "respuesta_parsed": 46912513,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 5711.0
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1803227946",
+      "respuesta_parsed": 1803227946,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 5393.9
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "2501787647",
+      "respuesta_parsed": 2501787647,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 5362.4
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "268435461",
+      "respuesta_parsed": 268435461,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 5441.0
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1310720",
+      "respuesta_parsed": 1310720,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 5321.7
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "90045953",
+      "respuesta_parsed": 90045953,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 1015.1
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "248786712",
+      "respuesta_parsed": 248786712,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 5481.0
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "2348777472",
+      "respuesta_parsed": 2348777472,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 5613.6
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "1234567890",
+      "respuesta_parsed": 1234567890,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 5643.5
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "1452066459",
+      "respuesta_parsed": 1452066459,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 5622.0
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "2187806638",
+      "respuesta_parsed": 2187806638,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 5845.8
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "2143345798",
+      "respuesta_parsed": 2143345798,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 5523.0
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "3724607847",
+      "respuesta_parsed": 3724607847,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 5961.3
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "3894622464",
+      "respuesta_parsed": 3894622464,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 6334.8
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "3265918765",
+      "respuesta_parsed": 3265918765,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 6093.7
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "3737691661",
+      "respuesta_parsed": 3737691661,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 5732.0
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "2102080396",
+      "respuesta_parsed": 2102080396,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 7648.9
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "3704857336",
+      "respuesta_parsed": 3704857336,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 5466.2
+    }
+  ]
+}

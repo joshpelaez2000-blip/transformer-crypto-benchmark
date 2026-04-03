@@ -1,0 +1,409 @@
+{
+  "agent_id": "openai_gpt54_pro",
+  "nombre": "GPT-5.4 Pro",
+  "model": "gpt-5.4-pro",
+  "timeout": "120s",
+  "fecha": "2026-04-04T00:12:03.019991",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 10,
+      "total": 10,
+      "accuracy": 100.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 20.0,
+  "tiempo_promedio_ms": 7884.7,
+  "errores_api": 40,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 7642.8
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "4121802631",
+      "respuesta_parsed": 4121802631,
+      "respuesta_correcta": 4121802631,
+      "acerto": true,
+      "tiempo_ms": 8616.7
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 7701.9
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3279548801",
+      "respuesta_parsed": 3279548801,
+      "respuesta_correcta": 3279548801,
+      "acerto": true,
+      "tiempo_ms": 9182.2
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3477662092",
+      "respuesta_parsed": 3477662092,
+      "respuesta_correcta": 3477662092,
+      "acerto": true,
+      "tiempo_ms": 8731.1
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2164485943",
+      "respuesta_parsed": 2164485943,
+      "respuesta_correcta": 2164485943,
+      "acerto": true,
+      "tiempo_ms": 8243.2
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2129144230",
+      "respuesta_parsed": 2129144230,
+      "respuesta_correcta": 2129144230,
+      "acerto": true,
+      "tiempo_ms": 6824.7
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 6754.9
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "4055354282",
+      "respuesta_parsed": 4055354282,
+      "respuesta_correcta": 4055354282,
+      "acerto": true,
+      "tiempo_ms": 6662.3
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1764605826",
+      "respuesta_parsed": 1764605826,
+      "respuesta_correcta": 1764605826,
+      "acerto": true,
+      "tiempo_ms": 8486.6
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 41775.5
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 13018.3
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 24878.1
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 41675.6
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 33427.8
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 12225.5
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 37941.4
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 97947.0
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 28473.1
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 10168.7
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 23871.2
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 24026.6
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 46613.6
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 10978.0
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 26713.1
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 48817.1
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 32804.1
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 27340.2
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 22738.4
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 10523.8
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 10250.0
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 26022.4
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 33256.3
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 30737.1
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 28249.3
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 26014.2
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 50218.1
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 41752.1
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 30544.8
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 53692.5
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 52669.7
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 36384.9
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 9675.4
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 26504.1
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 27438.7
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 39616.3
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 32956.3
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 53814.7
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 25983.3
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "No text in response",
+      "tiempo_ms": 40204.8
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "agent_id": "openai_gpt54_codex",
+  "nombre": "GPT-5.4 Codex",
+  "model": "gpt-5.4-codex",
+  "timeout": "120s",
+  "fecha": "2026-04-03T23:49:40.044593",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 0,
+  "errores_api": 50,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 361.2
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 806.6
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 366.9
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 311.4
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 1604.3
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 303.7
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 248.9
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 336.2
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 296.5
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 311.1
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 326.1
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 374.5
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 329.9
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 299.3
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 327.0
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 302.8
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 291.0
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 283.1
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 285.9
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 239.7
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 323.6
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 394.7
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 354.9
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 286.6
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 327.3
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 340.3
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 222.8
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 305.8
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 289.8
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 303.8
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 302.0
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 359.1
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 290.4
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 292.1
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 303.4
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 327.2
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 296.9
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 352.7
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 337.7
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 222.3
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 344.1
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 414.5
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 358.7
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 301.0
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 292.6
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 355.4
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 495.3
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 299.0
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 349.8
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 400: Bad Request",
+      "tiempo_ms": 319.2
+    }
+  ]
+}

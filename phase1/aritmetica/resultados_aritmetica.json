@@ -1,0 +1,1483 @@
+{
+  "fecha": "2026-04-03",
+  "preguntas_total": 50,
+  "agentes_total": 42,
+  "modelos": [
+    {
+      "agent_id": "groq_llama70b",
+      "nombre": "LLaMA 70B",
+      "provider": "groq",
+      "model": "llama-3.3-70b-versatile",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "groq_scout",
+      "nombre": "LLaMA 4 Scout",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 1252.8,
+      "errores_api": 2
+    },
+    {
+      "agent_id": "groq_kimi",
+      "nombre": "Kimi K2",
+      "provider": "groq",
+      "model": "moonshotai/kimi-k2-instruct",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 10.0,
+      "tiempo_promedio_ms": 4692.0,
+      "errores_api": 15
+    },
+    {
+      "agent_id": "groq_qwen",
+      "nombre": "Qwen3 32B",
+      "provider": "groq",
+      "model": "qwen/qwen3-32b",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 5978.7,
+      "errores_api": 12
+    },
+    {
+      "agent_id": "cerebras_qwen235b",
+      "nombre": "Qwen3 235B",
+      "provider": "cerebras",
+      "model": "qwen-3-235b-a22b-instruct-2507",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 4708.6,
+      "errores_api": 16
+    },
+    {
+      "agent_id": "cerebras_llama8b",
+      "nombre": "LLaMA 8B fast",
+      "provider": "cerebras",
+      "model": "llama3.1-8b",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 2.0,
+      "tiempo_promedio_ms": 1937.4,
+      "errores_api": 4
+    },
+    {
+      "agent_id": "gemini_31_pro",
+      "nombre": "Gemini 3.1 Pro",
+      "provider": "gemini",
+      "model": "gemini-3.1-pro-preview",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 5891.5,
+      "errores_api": 25
+    },
+    {
+      "agent_id": "gemini_3_pro",
+      "nombre": "Gemini 3 Pro",
+      "provider": "gemini",
+      "model": "gemini-3-pro-preview",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 5718.2,
+      "errores_api": 18
+    },
+    {
+      "agent_id": "gemini_3_flash",
+      "nombre": "Gemini 3 Flash",
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 16.0,
+      "tiempo_promedio_ms": 7324.2,
+      "errores_api": 10
+    },
+    {
+      "agent_id": "gemini_31_flash",
+      "nombre": "Gemini 3.1 Flash Lite",
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite-preview",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 6,
+          "total": 10,
+          "accuracy": 60.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 12.0,
+      "tiempo_promedio_ms": 3778.2,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "gemini_25_pro",
+      "nombre": "Gemini 2.5 Pro",
+      "provider": "gemini",
+      "model": "gemini-2.5-pro",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 5443.9,
+      "errores_api": 16
+    },
+    {
+      "agent_id": "gemini_25_flash",
+      "nombre": "Gemini 2.5 Flash",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "gemini_25_lite",
+      "nombre": "Gemini 2.5 Flash Lite",
+      "provider": "gemini",
+      "model": "gemini-2.5-flash-lite",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 4.0,
+      "tiempo_promedio_ms": 5873.7,
+      "errores_api": 17
+    },
+    {
+      "agent_id": "gemini_20_flash",
+      "nombre": "Gemini 2.0 Flash",
+      "provider": "gemini",
+      "model": "gemini-2.0-flash",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 5814.4,
+      "errores_api": 15
+    },
+    {
+      "agent_id": "gemini_gemma27b",
+      "nombre": "Gemma 3 27B",
+      "provider": "gemini",
+      "model": "gemma-3-27b-it",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "gemini_gemma12b",
+      "nombre": "Gemma 3 12B",
+      "provider": "gemini",
+      "model": "gemma-3-12b-it",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "gemini_gemma4b",
+      "nombre": "Gemma 3 4B",
+      "provider": "gemini",
+      "model": "gemma-3-4b-it",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 5712.8,
+      "errores_api": 28
+    },
+    {
+      "agent_id": "gemini_gemma1b",
+      "nombre": "Gemma 3 1B",
+      "provider": "gemini",
+      "model": "gemma-3-1b-it",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "openai_gpt54_pro",
+      "nombre": "GPT-5.4 Pro",
+      "provider": "openai",
+      "model": "gpt-5.4-pro",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 8,
+          "total": 10,
+          "accuracy": 80.0
+        },
+        "xor": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "rotacion": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "and": {
+          "correctas": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 24.0,
+      "tiempo_promedio_ms": 12608.9,
+      "errores_api": 34
+    },
+    {
+      "agent_id": "openai_gpt54",
+      "nombre": "GPT-5.4",
+      "provider": "openai",
+      "model": "gpt-5.4",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 5,
+          "total": 10,
+          "accuracy": 50.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 10.0,
+      "tiempo_promedio_ms": 5461.3,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "openai_gpt54_mini",
+      "nombre": "GPT-5.4 Mini",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 5157.2,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "openai_gpt54_nano",
+      "nombre": "GPT-5.4 Nano",
+      "provider": "openai",
+      "model": "gpt-5.4-nano",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 4994.2,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "openai_gpt54_codex",
+      "nombre": "GPT-5.4 Codex",
+      "provider": "openai",
+      "model": "gpt-5.4-codex",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 2.0,
+      "tiempo_promedio_ms": 5515.5,
+      "errores_api": 40
+    },
+    {
+      "agent_id": "openai_gpt4o",
+      "nombre": "GPT-4o",
+      "provider": "openai",
+      "model": "gpt-4o",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 2.0,
+      "tiempo_promedio_ms": 5774.3,
+      "errores_api": 22
+    },
+    {
+      "agent_id": "openai_gpt4o_mini",
+      "nombre": "GPT-4o Mini",
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "openai_gpt41",
+      "nombre": "GPT-4.1",
+      "provider": "openai",
+      "model": "gpt-4.1",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 4,
+          "total": 10,
+          "accuracy": 40.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 8.0,
+      "tiempo_promedio_ms": 5433.4,
+      "errores_api": 24
+    },
+    {
+      "agent_id": "openai_gpt41_mini",
+      "nombre": "GPT-4.1 Mini",
+      "provider": "openai",
+      "model": "gpt-4.1-mini",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 4.0,
+      "tiempo_promedio_ms": 5375.4,
+      "errores_api": 25
+    },
+    {
+      "agent_id": "openai_gpt41_nano",
+      "nombre": "GPT-4.1 Nano",
+      "provider": "openai",
+      "model": "gpt-4.1-nano",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 2.0,
+      "tiempo_promedio_ms": 5444.3,
+      "errores_api": 25
+    },
+    {
+      "agent_id": "openai_o4_mini",
+      "nombre": "o4-mini",
+      "provider": "openai",
+      "model": "o4-mini",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 3,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 0,
+          "accuracy": 0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 0,
+      "errores_api": 3
+    },
+    {
+      "agent_id": "openai_o3",
+      "nombre": "o3",
+      "provider": "openai",
+      "model": "o3",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 6502.0,
+      "errores_api": 24
+    },
+    {
+      "agent_id": "openai_o3_mini",
+      "nombre": "o3-mini",
+      "provider": "openai",
+      "model": "o3-mini",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 3,
+          "total": 10,
+          "accuracy": 30.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 6.0,
+      "tiempo_promedio_ms": 6522.1,
+      "errores_api": 22
+    },
+    {
+      "agent_id": "openrouter_hermes",
+      "nombre": "Hermes 405B",
+      "provider": "openrouter",
+      "model": "nousresearch/hermes-3-llama-3.1-405b:free",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 2,
+          "total": 10,
+          "accuracy": 20.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 4.0,
+      "tiempo_promedio_ms": 5699.6,
+      "errores_api": 23
+    },
+    {
+      "agent_id": "openrouter_nemotron",
+      "nombre": "Nemotron 120B",
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3-super-120b-a12b:free",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 1,
+          "total": 10,
+          "accuracy": 10.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 2.0,
+      "tiempo_promedio_ms": 5482.5,
+      "errores_api": 23
+    },
+    {
+      "agent_id": "ollama_fast",
+      "nombre": "LLaMA 1B",
+      "provider": "ollama",
+      "model": "llama3.2:1b",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 3062.2,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_qwen3b",
+      "nombre": "Qwen 2.5 3B",
+      "provider": "ollama",
+      "model": "qwen2.5:3b",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 2317.3,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_phi4",
+      "nombre": "Phi-4 Mini",
+      "provider": "ollama",
+      "model": "phi4-mini:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 5690.9,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_mistral",
+      "nombre": "Mistral 7B",
+      "provider": "ollama",
+      "model": "mistral:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 25679.2,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_codellama",
+      "nombre": "CodeLlama 7B",
+      "provider": "ollama",
+      "model": "codellama:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 9209.2,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_qwen25",
+      "nombre": "Qwen 2.5 7B",
+      "provider": "ollama",
+      "model": "qwen2.5:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 4663.0,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_llama3",
+      "nombre": "LLaMA 3 8B",
+      "provider": "ollama",
+      "model": "llama3:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 4024.5,
+      "errores_api": 0
+    },
+    {
+      "agent_id": "ollama_qwen_fast",
+      "nombre": "Qwen Fast",
+      "provider": "ollama",
+      "model": "qwen-fast:latest",
+      "resultados": {
+        "suma_mod32": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "xor": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "rotacion": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "and": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        },
+        "combinada": {
+          "correctas": 0,
+          "total": 10,
+          "accuracy": 0.0
+        }
+      },
+      "accuracy_total": 0.0,
+      "tiempo_promedio_ms": 4679.0,
+      "errores_api": 0
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "agent_id": "openai_gpt41_nano",
+  "nombre": "GPT-4.1 Nano",
+  "model": "gpt-4.1-nano",
+  "timeout": "120s",
+  "fecha": "2026-04-04T00:07:56.506778",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 5,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 0,
+  "errores_api": 5,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 404.0
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 605.5
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 333.7
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 671.8
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 515.2
+    }
+  ]
+}

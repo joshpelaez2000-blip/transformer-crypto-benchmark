@@ -1,0 +1,34 @@
+{
+  "algoritmo": "SHA-256",
+  "input_test": "abc",
+  "por_ronda_compresion": {
+    "sumas_mod32": 7,
+    "rotaciones": 6,
+    "shifts": 0,
+    "xor": 7,
+    "and": 5,
+    "not": 1
+  },
+  "message_schedule_ops": {
+    "sumas_mod32": 144,
+    "rotaciones": 192,
+    "shifts": 96,
+    "xor": 192,
+    "and": 0,
+    "not": 0
+  },
+  "final_addition_ops": {
+    "sumas_mod32": 8
+  },
+  "total_rondas": 64,
+  "total_por_bloque": {
+    "sumas_mod32": 600,
+    "rotaciones": 576,
+    "shifts": 96,
+    "xor": 640,
+    "and": 320,
+    "not": 64,
+    "total_ops": 2296
+  },
+  "verificacion": "PASS \u2014 manual=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad expected=ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad"
+}

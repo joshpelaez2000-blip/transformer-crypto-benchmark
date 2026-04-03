@@ -1,0 +1,488 @@
+{
+  "agent_id": "ollama_phi4",
+  "nombre": "Phi-4 Mini",
+  "provider": "ollama",
+  "model": "phi4-mini:latest",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 5690.9,
+  "errores_api": 0,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1466986787",
+      "respuesta_parsed": 1466986787,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 17549.0
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1316331983",
+      "respuesta_parsed": 1316331983,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 1552.6
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "19103023545",
+      "respuesta_parsed": 19103023545,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 1540.7
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1977945819",
+      "respuesta_parsed": 1977945819,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 1542.6
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1448678320",
+      "respuesta_parsed": 1448678320,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 1454.8
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1394352158",
+      "respuesta_parsed": 1394352158,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 1552.3
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1398139618",
+      "respuesta_parsed": 1398139618,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 1417.7
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2879780359",
+      "respuesta_parsed": 2879780359,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 1420.6
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1399367810",
+      "respuesta_parsed": 1399367810,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 1495.3
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1359153771",
+      "respuesta_parsed": 1359153771,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 1450.0
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "3147356273",
+      "respuesta_parsed": 3147356273,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 1722.0
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "El resultado de la operación A XOR B es 785729012.",
+      "respuesta_parsed": 785729012,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 2485.2
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "La respuesta es 1218346174.",
+      "respuesta_parsed": 1218346174,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 2024.9
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "La operación bit-a-bit de A XOR B se calcula como sigue:\n\nA = 3026113008\nB = 433797840\n\nDescomponiendo en bits:\n3026113008 -> 11100001111010101010000100 (32 bits)\n433797840   -> 1101000111110110100000000 (32 bits)\n\nAplicando XOR bit-a-bit:\n\n```\n  11100001111010101010000100\n⊕ 110100011111011010000000",
+      "respuesta_parsed": 1065409444,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 15577.7
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 1490950000",
+      "respuesta_parsed": 1490950000,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 2106.5
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "1593455099",
+      "respuesta_parsed": 1593455099,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 1584.5
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "3140810000",
+      "respuesta_parsed": 3140810000,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 1586.0
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "1519267304",
+      "respuesta_parsed": 1519267304,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 1598.3
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "El resultado de la operación A XOR B es 6698580107.",
+      "respuesta_parsed": 6698580107,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 2650.5
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "1315",
+      "respuesta_parsed": 1315,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 1419.0
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "El nuevo valor resultante es `131073`.",
+      "respuesta_parsed": 131073,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 2408.1
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "La rotación deslocaliza efectivamente las bitas al final derecho del número para una posición específica y luego las desplaza a la izquierda.\n\nPara rotar `A = 2144181937` por `N = 29` posiciones en un registro de 32 bits:\n\n1. Convertir el número decimal en binario.\n2. Realizar la rotación deslocaliz",
+      "respuesta_parsed": 2144181937,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 13906.3
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 3209058.",
+      "respuesta_parsed": 3209058,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 1811.4
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "El bit rotado es `0x1E3C9B`. La respuesta final es:\n\n\\[\\boxed{19999999}\\]\n\n\nExplicación: Rota los últimos 24 bits de la cifra binaria del octeto A (599707677) hacia la derecha por N=24 posiciones. El resultado en hexadecimal es \\texttt{x}1E3C9B, que se traduce al decimal como el número final.\n\nLa re",
+      "respuesta_parsed": 19999999,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 10004.0
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "La operación solicitada involucra rotar o \"circularizar\" el bit binario de un número dado (A) por una cantidad específica (N) posiciones hacia la derecha en un registro de 32 bits.\n\nPara realizar esto:\n\n1. Convierte A al sistema binario.\n2. Realiza el movimiento circular simétrico hacia la derecha.\n",
+      "respuesta_parsed": 1359378376,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 23062.7
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "2229620376",
+      "respuesta_parsed": 2229620376,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 1457.2
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado después de rotar los bits del número hexadecimal A (4284391408) = 0010000111101000101111011000 hacia la derecha por N posiciones (N=17) es el decimal: 1610612748815239.",
+      "respuesta_parsed": 1610612748815239,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 5869.7
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "2154436200",
+      "respuesta_parsed": 2154436200,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 1485.4
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "El nuevo valor después de rotar los bits es `46656`.",
+      "respuesta_parsed": 46656,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 2334.4
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultante es 1463378880.",
+      "respuesta_parsed": 1463378880,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 2140.7
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "La operación bitwise AND de dos números se realiza comparando cada conjunto de bits en los mismos lugar valorado de ambas cantidades binarias. Si ambos bits son 1, entonces el resultado es un 1; si no lo son (ambos 0 o uno es 1 y el otro es 0), el resultado es un 0.\n\nSin embargo, como supondría que ",
+      "respuesta_parsed": 409504808,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 26573.5
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "La operación bit a bit de AND para los números binarios 10101000010001100111111010000101 (A = 2272528809) y 10101110110111001010100101101111 (B = 3095476665) resulta en el número decimal: 2095656227.",
+      "respuesta_parsed": 2095656227,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 7213.3
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "3030\n\nLa operación de AND bitwise para los números decimales dados 2752909971 (A en binario: `10100101011101111000010011101`) e 479112937 (B en binario: `100011001101110110101101111`), cuando se realiza una operación bit-wise AND, tenemos:\n\n```\n    A = 10100101011101111000010011101\nAND B =      1000",
+      "respuesta_parsed": 3030,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 13769.6
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1831",
+      "respuesta_parsed": 1831,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 7887.8
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación XOR entre A = 3919706735 y B = 2615507143 es 1304209598. Por favor, verifique si esta respuesta coincide con lo que esperaba. Si no es así o hay un error en su solicitud inicial, por favor avíseme para poder corregirlo.",
+      "respuesta_parsed": 1304209598,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 21591.2
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "La operación bitwise AND de los números 656439677 y 3274958945 es 536437687.\n\nExplicación: Realiza la operación bitwise AND en cada posición binaria de A y B, lo que significa tomar un valor (0 o 1) del primer número para cada bit, si el segundo corresponde con otro (o igual), toma ese; si no es así",
+      "respuesta_parsed": 536437687,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 20057.0
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "La operación bitwise AND de los números decimales 1392239675 y 83651970 es 10244090.",
+      "respuesta_parsed": 10244090,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 3521.1
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "La respuesta es 3810818589.",
+      "respuesta_parsed": 3810818589,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 1935.5
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "La operación bit-a-bit de AND para las dos números binarios 248786714 y 4067116918 es:\n\n0011 1100 1011 01111100 10001001\n\nEl resultado en formato decimal es: 1348744.",
+      "respuesta_parsed": 1348744,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 5907.8
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "La operación bitwise AND de los dos números dados es 2208768640.",
+      "respuesta_parsed": 2208768640,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 2641.6
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "La operación se ejecutará paso a paso:\n\n1. Calcular (A + B): \n   \\[\n   1338811290 + 2791205006 = 4130016296\n   \\]\n\n2. Aplicar modulo 4294967296 al resultado:\n   \\[\n   4130016296 \\mod 4294967296 = 4130016296\n   \\]\n   Dado que 4130016296 es menor o igual a 4294967296, el resto es el número mismo.\n\n3. ",
+      "respuesta_parsed": 145728640,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 29350.3
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "2187856800",
+      "respuesta_parsed": 2187856800,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 1686.9
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "2446740020",
+      "respuesta_parsed": 2446740020,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 1678.4
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "1398187894",
+      "respuesta_parsed": 1398187894,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 1710.1
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "2869999829",
+      "respuesta_parsed": 2869999829,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 1765.2
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "1268608371",
+      "respuesta_parsed": 1268608371,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 1618.2
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "2626535853",
+      "respuesta_parsed": 2626535853,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 1645.5
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "La respuesta es `1910010008`.",
+      "respuesta_parsed": 1910010008,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 2080.8
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "1396808253",
+      "respuesta_parsed": 1396808253,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 1623.4
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "La respuesta es 3154248830.",
+      "respuesta_parsed": 3154248830,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 2076.4
+    }
+  ]
+}

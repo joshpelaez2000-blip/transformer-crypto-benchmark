@@ -1,0 +1,440 @@
+{
+  "agent_id": "openai_gpt41",
+  "nombre": "GPT-4.1",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 4,
+      "total": 10,
+      "accuracy": 40.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 8.0,
+  "tiempo_promedio_ms": 5433.4,
+  "errores_api": 24,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 5690.6
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2596770267",
+      "respuesta_parsed": 2596770267,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 5425.2
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 5850.4
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3279548801",
+      "respuesta_parsed": 3279548801,
+      "respuesta_correcta": 3279548801,
+      "acerto": true,
+      "tiempo_ms": 5559.7
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5359.8
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5246.8
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5588.0
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 4942.0
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "7410574",
+      "respuesta_parsed": 7410574,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 5349.3
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1813039686",
+      "respuesta_parsed": 1813039686,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 5965.4
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5348.3
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5371.6
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5568.2
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5589.8
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "773055834",
+      "respuesta_parsed": 773055834,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 5706.4
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "3283423219",
+      "respuesta_parsed": 3283423219,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 5529.2
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "2433367483",
+      "respuesta_parsed": 2433367483,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 5586.4
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "2875009598",
+      "respuesta_parsed": 2875009598,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 5758.6
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "2768718272",
+      "respuesta_parsed": 2768718272,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 5456.2
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5317.3
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5274.0
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5533.4
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "504776046",
+      "respuesta_parsed": 504776046,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 4817.7
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "25232996",
+      "respuesta_parsed": 25232996,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 5721.3
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "19088763",
+      "respuesta_parsed": 19088763,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 5338.8
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5333.6
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5266.7
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5639.3
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5548.3
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "3104099340",
+      "respuesta_parsed": 3104099340,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 5409.3
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "134217728",
+      "respuesta_parsed": 134217728,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 5326.7
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "2254529561",
+      "respuesta_parsed": 2254529561,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 5502.2
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "462673",
+      "respuesta_parsed": 462673,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 5758.6
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5350.2
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5257.9
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5631.4
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1464",
+      "respuesta_parsed": 1464,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 5669.4
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "117440513",
+      "respuesta_parsed": 117440513,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 4836.2
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "248786714",
+      "respuesta_parsed": 248786714,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 5333.4
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5344.9
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5309.8
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 7268.7
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "3586482674",
+      "respuesta_parsed": 3586482674,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 4048.8
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "3528131874",
+      "respuesta_parsed": 3528131874,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 5654.3
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "3745219696",
+      "respuesta_parsed": 3745219696,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 5349.6
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5529.7
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5548.3
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5521.4
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5615.5
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "3254826929",
+      "respuesta_parsed": 3254826929,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 5681.5
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "agent_id": "gemini_25_flash",
+  "nombre": "Gemini 2.5 Flash",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 3,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 0,
+      "accuracy": 0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 0,
+  "errores_api": 3,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 3521.5
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5321.6
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5426.9
+    }
+  ]
+}

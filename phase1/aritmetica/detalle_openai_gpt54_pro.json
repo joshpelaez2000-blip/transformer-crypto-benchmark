@@ -1,0 +1,420 @@
+{
+  "agent_id": "openai_gpt54_pro",
+  "nombre": "GPT-5.4 Pro",
+  "provider": "openai",
+  "model": "gpt-5.4-pro",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 8,
+      "total": 10,
+      "accuracy": 80.0
+    },
+    "xor": {
+      "correctas": 1,
+      "total": 10,
+      "accuracy": 10.0
+    },
+    "rotacion": {
+      "correctas": 1,
+      "total": 10,
+      "accuracy": 10.0
+    },
+    "and": {
+      "correctas": 2,
+      "total": 10,
+      "accuracy": 20.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 24.0,
+  "tiempo_promedio_ms": 12608.9,
+  "errores_api": 34,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 7913.0
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "4121802631",
+      "respuesta_parsed": 4121802631,
+      "respuesta_correcta": 4121802631,
+      "acerto": true,
+      "tiempo_ms": 7925.6
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 6966.4
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3279548801",
+      "respuesta_parsed": 3279548801,
+      "respuesta_correcta": 3279548801,
+      "acerto": true,
+      "tiempo_ms": 5751.1
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "954208140",
+      "respuesta_parsed": 954208140,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 5458.2
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2007894575",
+      "respuesta_parsed": 2007894575,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 5395.5
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2129144230",
+      "respuesta_parsed": 2129144230,
+      "respuesta_correcta": 2129144230,
+      "acerto": true,
+      "tiempo_ms": 6389.2
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 5660.7
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "4055354282",
+      "respuesta_parsed": 4055354282,
+      "respuesta_correcta": 4055354282,
+      "acerto": true,
+      "tiempo_ms": 11449.4
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1764605826",
+      "respuesta_parsed": 1764605826,
+      "respuesta_correcta": 1764605826,
+      "acerto": true,
+      "tiempo_ms": 9599.9
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30141.7
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "2830944808",
+      "respuesta_parsed": 2830944808,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 5339.8
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "3202602142",
+      "respuesta_parsed": 3202602142,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 5391.1
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "2911234848",
+      "respuesta_parsed": 2911234848,
+      "respuesta_correcta": 2911234848,
+      "acerto": true,
+      "tiempo_ms": 31346.2
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30167.9
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30208.3
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30249.3
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30405.1
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30141.5
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30243.5
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30184.4
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30208.0
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30166.6
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30438.6
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "2906352588",
+      "respuesta_parsed": 2906352588,
+      "respuesta_correcta": 2906352588,
+      "acerto": true,
+      "tiempo_ms": 29680.4
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30192.0
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30180.0
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30208.5
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30182.3
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30284.0
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30141.5
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "2147486121",
+      "respuesta_parsed": 2147486121,
+      "respuesta_correcta": 2147486121,
+      "acerto": true,
+      "tiempo_ms": 28596.3
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "67502721",
+      "respuesta_parsed": 67502721,
+      "respuesta_correcta": 67502721,
+      "acerto": true,
+      "tiempo_ms": 28879.9
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30180.3
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30182.4
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30333.1
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30240.4
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30148.4
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30236.8
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30195.9
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30220.6
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30187.7
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30212.0
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30183.8
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30222.3
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30182.1
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30218.7
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30125.5
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30238.7
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "The read operation timed out",
+      "tiempo_ms": 30191.0
+    }
+  ]
+}

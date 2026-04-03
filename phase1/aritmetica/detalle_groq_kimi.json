@@ -1,0 +1,458 @@
+{
+  "agent_id": "groq_kimi",
+  "nombre": "Kimi K2",
+  "provider": "groq",
+  "model": "moonshotai/kimi-k2-instruct",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 5,
+      "total": 10,
+      "accuracy": 50.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 10.0,
+  "tiempo_promedio_ms": 4692.0,
+  "errores_api": 15,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559600",
+      "respuesta_parsed": 3927559600,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 351.3
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "4121802631",
+      "respuesta_parsed": 4121802631,
+      "respuesta_correcta": 4121802631,
+      "acerto": true,
+      "tiempo_ms": 1225.0
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 5622.5
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3279548801",
+      "respuesta_parsed": 3279548801,
+      "respuesta_correcta": 3279548801,
+      "acerto": true,
+      "tiempo_ms": 5549.8
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3477662092",
+      "respuesta_parsed": 3477662092,
+      "respuesta_correcta": 3477662092,
+      "acerto": true,
+      "tiempo_ms": 5372.2
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2011183807",
+      "respuesta_parsed": 2011183807,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 5621.8
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2129145230",
+      "respuesta_parsed": 2129145230,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 5358.8
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 532.8
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "7481454",
+      "respuesta_parsed": 7481454,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 5350.0
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5459.7
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5536.0
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 737726118.",
+      "respuesta_parsed": 737726118,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 6360.2
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "1234693336",
+      "respuesta_parsed": 1234693336,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 4590.1
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 2592315168",
+      "respuesta_parsed": 2592315168,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 1015.4
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 892434798",
+      "respuesta_parsed": 892434798,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 5929.9
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "2906537675",
+      "respuesta_parsed": 2906537675,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 14535.4
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "3832105475",
+      "respuesta_parsed": 3832105475,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 7241.5
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "Para calcular A XOR B bit a bit:\n\n1629748727 XOR 2392080953 = 764331834",
+      "respuesta_parsed": 764331834,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 419.1
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 379.1
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5672.2
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5630.3
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5615.3
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 1341717997.",
+      "respuesta_parsed": 1341717997,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 5942.6
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "2280",
+      "respuesta_parsed": 2280,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 3402.6
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número A=2510777721 en binario es: 10010101111110100111110001100001.\n\nAl rotar los bits a la derecha 29 posiciones, el resultado en binario es: 11100001100101011111101001101010.\n\nConvertido de nuevo a decimal, el resultado es: 188036680.",
+      "respuesta_parsed": 188036680,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 2241.3
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "2254735091",
+      "respuesta_parsed": 2254735091,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 5347.4
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "101322498",
+      "respuesta_parsed": 101322498,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 5411.8
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "1610612735",
+      "respuesta_parsed": 1610612735,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 5345.9
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5432.1
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "273",
+      "respuesta_parsed": 273,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 4348.2
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "168113168",
+      "respuesta_parsed": 168113168,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 362.9
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 313.3
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5584.4
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 1746425080.",
+      "respuesta_parsed": 1746425080,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 7113.9
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5254.8
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 3274921997.",
+      "respuesta_parsed": 3274921997,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 5965.1
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "87091202",
+      "respuesta_parsed": 87091202,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 2450.4
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 1048571137.",
+      "respuesta_parsed": 1048571137,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 1022.9
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "248786714",
+      "respuesta_parsed": 248786714,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 10281.3
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "2290616320",
+      "respuesta_parsed": 2290616320,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 9484.6
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5256.8
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "144",
+      "respuesta_parsed": 144,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 2756.9
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero calculamos \\( A + B \\):\n\n\\[\nA + B = 945826486 + 2710566582 = 3656393068\n\\]\n\nAhora calculamos \\( (A + B) \\mod 4294967296 \\):\n\nDado que \\( 3656393068 < 4294967296 \\), entonces:\n\n\\[\n3656393068 \\mod 4294967296 = 3656393068\n\\]\n\nAhora hacemos la operación XOR con \\( C = 983297492 \\):\n\n\\[\n365639306",
+      "respuesta_parsed": 3810234008,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 965.4
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5964.5
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado es 2979648895.",
+      "respuesta_parsed": 2979648895,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 5927.4
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5788.9
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado de la operación es **2012371562**.",
+      "respuesta_parsed": 2012371562,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 6042.1
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculamos \\( A + B \\):\n\n\\[\nA + B = 3700855390 + 1067970820 = 4768826210\n\\]\n\nAhora aplicamos el módulo \\( 4294967296 \\):\n\n\\[\n4768826210 \\mod 4294967296 = 473859014\n\\]\n\nDespués, aplicamos la operación XOR con \\( C \\):\n\n\\[\n473859014 \\text{ XOR } 1926780541 = 1392928597\n\\]\n\nEl resultado final ",
+      "respuesta_parsed": 1392928597,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 4731.4
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 8046.5
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5276.6
+    }
+  ]
+}

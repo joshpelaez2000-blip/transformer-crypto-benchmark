@@ -1,0 +1,458 @@
+{
+  "agent_id": "gemini_20_flash",
+  "nombre": "Gemini 2.0 Flash",
+  "provider": "gemini",
+  "model": "gemini-2.0-flash",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 3,
+      "total": 10,
+      "accuracy": 30.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 6.0,
+  "tiempo_promedio_ms": 5814.4,
+  "errores_api": 15,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "604345494",
+      "respuesta_parsed": 604345494,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 5337.9
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5321.8
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 4232.0
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5488.9
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3477662092",
+      "respuesta_parsed": 3477662092,
+      "respuesta_correcta": 3477662092,
+      "acerto": true,
+      "tiempo_ms": 6169.5
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2014807983",
+      "respuesta_parsed": 2014807983,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 5351.4
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2129144230",
+      "respuesta_parsed": 2129144230,
+      "respuesta_correcta": 2129144230,
+      "acerto": true,
+      "tiempo_ms": 5340.3
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844002954",
+      "respuesta_parsed": 1844002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": true,
+      "tiempo_ms": 5564.5
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "79344030",
+      "respuesta_parsed": 79344030,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 5394.7
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5349.4
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5450.0
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 740522521.",
+      "respuesta_parsed": 740522521,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 6302.9
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 1221304346",
+      "respuesta_parsed": 1221304346,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 5541.4
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "2592516624",
+      "respuesta_parsed": 2592516624,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 5764.2
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "1783186834",
+      "respuesta_parsed": 1783186834,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 5719.4
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "2880591451",
+      "respuesta_parsed": 2880591451,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 7134.3
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "2436883187",
+      "respuesta_parsed": 2436883187,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 6142.8
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 2365.8
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "3458381426",
+      "respuesta_parsed": 3458381426,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 5354.7
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5332.6
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5459.7
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 7.",
+      "respuesta_parsed": 7,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 6811.0
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultante es 233137065.",
+      "respuesta_parsed": 233137065,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 4419.8
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 3583180.",
+      "respuesta_parsed": 3583180,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 5759.4
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "188308329",
+      "respuesta_parsed": 188308329,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 5942.9
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "1031092149",
+      "respuesta_parsed": 1031092149,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 5452.6
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "161061273",
+      "respuesta_parsed": 161061273,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 5449.7
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "1627389959",
+      "respuesta_parsed": 1627389959,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 4707.4
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5538.4
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5528.7
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "268435456",
+      "respuesta_parsed": 268435456,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 5747.2
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 2014051521",
+      "respuesta_parsed": 2014051521,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 6203.9
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 2436816857.",
+      "respuesta_parsed": 2436816857,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 5349.6
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1802173754",
+      "respuesta_parsed": 1802173754,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 5424.3
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "2501787647",
+      "respuesta_parsed": 2501787647,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 5459.9
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "2147483649",
+      "respuesta_parsed": 2147483649,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 5405.1
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1392239675 AND 83651970 = 1048576",
+      "respuesta_parsed": 1048576,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 6577.7
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 4378.4
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "248786714",
+      "respuesta_parsed": 248786714,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 14089.7
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "2348810240",
+      "respuesta_parsed": 2348810240,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 5367.5
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5340.3
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 2346.4
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 8698.7
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado es 1777201874.",
+      "respuesta_parsed": 1777201874,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 6253.9
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado es 2468187373.",
+      "respuesta_parsed": 2468187373,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 5736.3
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "3607560384",
+      "respuesta_parsed": 3607560384,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 5378.4
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "2704385177",
+      "respuesta_parsed": 2704385177,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 1550.2
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "3430228945",
+      "respuesta_parsed": 3430228945,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 5652.2
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "3965395580",
+      "respuesta_parsed": 3965395580,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 5648.6
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5397.0
+    }
+  ]
+}

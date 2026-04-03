@@ -1,0 +1,484 @@
+{
+  "agent_id": "groq_scout",
+  "nombre": "LLaMA 4 Scout",
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 3,
+      "total": 10,
+      "accuracy": 30.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 6.0,
+  "tiempo_promedio_ms": 1252.8,
+  "errores_api": 2,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "A + B = 2746317213 + 1181241943 = 3927559156  \n3927559156 mod 2^32 = 3927559156\n\n3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 6765.7
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "A + B = 4121802631  \n4121802631 mod 2^32 = 4121802631",
+      "respuesta_parsed": 4121802631,
+      "respuesta_correcta": 4121802631,
+      "acerto": true,
+      "tiempo_ms": 6153.2
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1941116535",
+      "respuesta_parsed": 1941116535,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 3160.1
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3280546803",
+      "respuesta_parsed": 3280546803,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 154.6
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "946785248 + 2530876844 = 3477662102\n\n3477662102 mod 2^32 = 3477662102 mod 4294967296\n\n= 3477662102 \n\n(verificado con calculator y aproximaciones)",
+      "respuesta_parsed": 3477662102,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 248.0
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "Calculo primero la suma A + B:\n\nA = 3460967357  \nB = 2998485882  \n\nA + B = 3459453239\n\nAhora, calculo (A + B) mod 2^32. \n\n2^32 = 4294967296\n\n(A + B) mod 2^32 = 3459453239 mod 4294967296 \n\nComo 3459453239 es menor que 4294967296:\n\n3459453239 mod 4294967296 = 3459453239 \n\nLa respuesta es: 3459453239",
+      "respuesta_parsed": 3459453239,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 436.8
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2144142242",
+      "respuesta_parsed": 2144142242,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 142.5
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1844193954",
+      "respuesta_parsed": 1844193954,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 153.2
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "Para calcular \\((A + B) \\mod 2^{32}\\), primero sumamos \\(A\\) y \\(B\\), y luego tomamos el resultado módulo \\(2^{32}\\).\n\n\\(A = 415393687\\)\n\n\\(B = 3639960595\\)\n\n\\(A + B = 415393687 + 3639960595 = 4055354282\\)\n\nAhora, dado que \\(2^{32} = 4294967296\\),\n\n\\((A + B) \\mod 2^{32} = 4055354282 \\mod 4294967296\\",
+      "respuesta_parsed": 4055354282,
+      "respuesta_correcta": 4055354282,
+      "acerto": true,
+      "tiempo_ms": 551.1
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "6069573122",
+      "respuesta_parsed": 6069573122,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 183.5
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "Para calcular A XOR B, primero convierto A y B a binario, luego realizo la operación XOR bit a bit y finalmente convierto el resultado de regreso a decimal.\n\nA = 3134174160\nB = 2303082117\n\nPrimero, convierto A y B a binario:\n\nA (3134174160 en decimal) = 10111011 01110100 11001010 10000000 (en binari",
+      "respuesta_parsed": 858993049,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 772.5
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "Calculo el XOR:\n\nA = 1625792787\nB = 2370996465\n\nA XOR B = 1625792787 ^ 2370996465\n= 11110001110110111010111101100111 (A en binario)\n^ 10001100111011011110011010110001 (B en binario)\n-------------------------\n= 01111101001101100100100111010110 (A XOR B en binario)\n\nEn decimal:\nA XOR B =  1759642406",
+      "respuesta_parsed": 1759642406,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 424.1
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "1221294338",
+      "respuesta_parsed": 1221294338,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 170.2
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "3153395168",
+      "respuesta_parsed": 3153395168,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 124.9
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "375811005",
+      "respuesta_parsed": 375811005,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 151.1
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "1203205651",
+      "respuesta_parsed": 1203205651,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 150.7
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "3860495409",
+      "respuesta_parsed": 3860495409,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 126.5
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "4023301672",
+      "respuesta_parsed": 4023301672,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 131.9
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "Calculo el XOR:\n\nA = 2940395823\nB = 3332894265\n\n Primero, convierto a binario (representación en 32 bits, para facilitar la operación):\n\nA (binario) = 10101101 11011111 10010111 11101111 (aproximadamente, no es la representación exacta)\nB (binario) = 11000110 01111011 11010010 10110001\n\nOperación XO",
+      "respuesta_parsed": 631887876,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 641.2
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "Para calcular A XOR B, primero convierto A y B a binario, luego realizo la operación XOR bit a bit y finalmente convierto el resultado de vuelta a decimal.\n\nA = 1354860540\nB = 1149938334\n\nPrimero, convierto A y B a binario:\n\nA = 1354860540 en binario es: 1010000111101001101000101100\nB = 1149938334 e",
+      "respuesta_parsed": 2013265922,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 767.5
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "Para rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits, primero debemos asegurarnos de que A esté representado en forma de 32 bits. \n\nA = 1351531223\n\nPara rotar a la derecha N posiciones (donde N=21), podemos usar la propiedad de que rotar a la derecha por 32 posici",
+      "respuesta_parsed": 1380535807,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 996.2
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "Para rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits, primero debemos entender cómo funciona la rotación de bits.\n\nDado A = 2144181937 y N = 29, \n\n1. Convertimos A a binario. \n   - A = 2144181937 en binario es 11111111 11111111 00000111 11110001 (en formato de 32 ",
+      "respuesta_parsed": 2149182815,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 1053.5
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "Para rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits, se puede usar la siguiente fórmula:\n\nA rotado a la derecha N posiciones = (A >> N) | ((A & ((1 << N) - 1)) << (32 - N))\n\nDonde A = 1970753705 y N = 9.\n\nPrimero, calculo A >> N:\n\nA = 1970753705\nN = 9\n\nA >> 9 = 1",
+      "respuesta_parsed": 1469598107,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 1445.0
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "Para rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits, podemos seguir los siguientes pasos:\n\n1. **Expresar A en binario**: Primero, necesitamos expresar el número A (599707677) en binario.\n\n2. **Rotar los bits**: Rotaremos los bits de A hacia la derecha N (24) posi",
+      "respuesta_parsed": 15990155,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 1286.7
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "Para rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits, primero debemos asegurarnos de que A esté representado en un formato de 32 bits.\n\nA = 2510777721\n\nDado que A es mayor que \\(2^{32} - 1\\), consideraremos su representación en 32 bits, así que A se ajusta a 32 bi",
+      "respuesta_parsed": 2906352584,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 1237.3
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "6755399440",
+      "respuesta_parsed": 6755399440,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 248.5
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5454.3
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "2119634399 >> 25 \n\n Primero, halla el valor de A con 32 bits:\n\n  01101111 00011010 01111010 11101111 \n\nSi N > 32, se puede reducir N módulo 32.\n\n N = 25 \n\n  Rota 25 posiciones a la derecha:\n\n  00000111 01101111 00011010 01111010 \n\nEl resultado en decimal:\n\n  2119634399 >> 25 = 159\n\nLa respuesta es: ",
+      "respuesta_parsed": 159,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 402.2
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5775.1
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 1786714403.",
+      "respuesta_parsed": 1786714403,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 6159.0
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "A AND B = 272849424",
+      "respuesta_parsed": 272849424,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 9089.0
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "2272528809 AND 3095476665 = 2261368809",
+      "respuesta_parsed": 2261368809,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 5946.3
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "2752909971 & 479112937 = 268435455",
+      "respuesta_parsed": 268435455,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 343.1
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "Para calcular A AND B (operación bit a bit), primero debemos convertir los números A y B a binario, realizar la operación AND y luego convertir el resultado nuevamente a decimal.\n\nA = 1867302554\nB = 1948728483\n\nPrimero, conviertamos A y B a binario:\n\nA (1867302554 en binario) = 110111100110101101100",
+      "respuesta_parsed": 1863256572,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 691.8
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "2147483647",
+      "respuesta_parsed": 2147483647,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 151.4
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "Para calcular A AND B (operación bit a bit), primero necesito convertir los números A y B a binario, pero dado que puedo operar directamente en decimal para obtener el resultado de la operación AND bit a bit de manera más eficiente con números grandes, usaré una aproximación más directa.\n\nA = 656439",
+      "respuesta_parsed": 3274958945,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 805.5
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1392239675 & 83651970 = 536870912",
+      "respuesta_parsed": 536870912,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 156.1
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "Para calcular A AND B (operación bit a bit), primero necesito convertir los números A y B a binarios, luego realizar la operación AND y finalmente convertir el resultado de vuelta a decimal.\n\nA = 3990448177\nB = 1320763135\n\nPrimero, conviertamos A y B a binario:\n\nA (3990448177 en binario) = 111110100",
+      "respuesta_parsed": 1320763137,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 601.4
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "Para calcular A AND B (operación bit a bit), primero debemos asegurarnos de que ambos números tengan la misma cantidad de bits. \n\nA = 248786714\nB = 4067116918\n\nVamos a convertirlos a binario y realizar la operación.\n\nA = 11110110011010110110110 (en binario, 248786714 en decimal)\nB = 1111001101011101",
+      "respuesta_parsed": 60758,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 921.8
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "2147483644",
+      "respuesta_parsed": 2147483644,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 134.0
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 1338811290\nB = 2791205006\nA + B = 1338811290 + 2791205006 = 4130016296\n\nComo 4294967296 es el máximo valor que puede representarse con 32 bits sin signo, y nuestro resultado es mayor, aplicamos el módulo:\n\n4130016296 mod 4294967296 = 4130016296 - 4294",
+      "respuesta_parsed": 2386921388,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 709.5
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 519709079\nB = 965067727\nA + B = 1484776806\n\nComo 1484776806 es menor que 4294967296, no es necesario hacer el módulo:\n\n(A + B) mod 4294967296 = 1484776806\n\nAhora, calculemos el XOR con C:\n\nC = 1452066459\n\n((A + B) mod 4294967296) XOR C = 1484776806 XO",
+      "respuesta_parsed": 33489747,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 639.4
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos \\( (A + B) \\mod 4294967296 \\).\n\nDados:\n- \\( A = 945826486 \\)\n- \\( B = 2710566582 \\)\n\n\\( A + B = 945826486 + 2710566582 = 3656393068 \\)\n\nAhora, calculemos \\( (A + B) \\mod 4294967296 \\):\n\n\\( 3656393068 \\mod 4294967296 = 3656393068 - 4294967296 \\times 0 = 3656393068 \\) \n\nComo 365639",
+      "respuesta_parsed": 294887200,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 1370.1
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 3888749350\nB = 3692105921\n\n(A + B) = 3888749350 + 3692105921 = 7580855271\n\nComo 4294967296 es el máximo valor para un entero de 32 bits sin signo, \n\n(A + B) mod 4294967296 = 7580855271 mod 4294967296 \n= 7580855271 - 4294967296 \n= 3285887975\n\nAhora, ca",
+      "respuesta_parsed": 2263665850,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 702.8
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 2873237671\nB = 2030106617\n\n(A + B) = 2873237671 + 2030106617 = 4903344288\n\nComo 4294967296 es el máximo valor para un entero sin signo de 32 bits:\n\n(4903344288 mod 4294967296) = 4903344288 - 4294967296 = 607377992\n\nAhora, calculemos el XOR con C:\n\nC =",
+      "respuesta_parsed": 2773302775,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 709.8
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 3468173213\nB = 817804383\n\n(A + B) = 3468173213 + 817804383 = 4284978596\n\n(A + B) mod 4294967296 = 4284978596 mod 4294967296 = 4284978596 (como es menor que 4294967296 no cambia)\n\nAhora, calculemos el resultado XOR C:\n\nC = 1851350739\n\n((A + B) mod 4294",
+      "respuesta_parsed": 2433627857,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 554.2
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 1819256337\nB = 3131356954\n\n(A + B) = 1819256337 + 3131356954 = 4950613291\n\nComo 4294967296 es el máximo valor para un entero sin signo de 32 bits:\n\n(4950613291 mod 4294967296) = 4950613291 - 4294967296 = 656443995\n\nAhora, calculemos el XOR con C:\n\nC =",
+      "respuesta_parsed": 56310175,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 562.4
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 3700855390\nB = 1067970820\n\n(A + B) = 3700855390 + 1067970820 = 4768826210\n\n Como 4294967296 es el límite para el módulo, y 4768826210 es mayor, \naplicamos el módulo:\n\n4768826210 mod 4294967296 = 4768826210 - 4294967296 = 473858916  (aproximadamente, o",
+      "respuesta_parsed": 1456982465,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 590.4
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 1811967841\nB = 1196342297\n\n(A + B) = 1811967841 + 1196342297 = 3008309938\n\nComo 4294967296 es el máximo valor para un entero sin signo de 32 bits, podemos realizar la operación mod:\n\n3008309938 mod 4294967296 = 3008309938 - 4294967296 no es necesario ",
+      "respuesta_parsed": 957087154,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 698.2
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "Primero, calculemos (A + B) mod 4294967296:\n\nA = 2363629219\nB = 3590711152\n\n(A + B) = 2363629219 + 3590711152 = 5954340371\n\nComo 4294967296 es el máximo valor para un entero sin signo de 32 bits:\n\n5954340371 mod 4294967296 = 5954340371 - 4294967296 = 1659373075\n\nAhora, calculemos el XOR con C:\n\nC = ",
+      "respuesta_parsed": 2502434160,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 519.4
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "transformer": {
+    "single_inference_us": 702.1,
+    "batch_1000_us": 24607.8,
+    "ops_per_sec": 40638,
+    "params": 431616
+  },
+  "python_native": {
+    "per_op_us": 0.0756,
+    "ops_per_sec": 13234184,
+    "iterations": 10000000
+  },
+  "c_native": {
+    "per_op_us": 0.0009,
+    "ops_per_sec": 1156302964,
+    "iterations": 100000000
+  },
+  "ratios": {
+    "transformer_vs_c": 780111.1,
+    "transformer_vs_python": 9287.0,
+    "python_vs_c": 84.0
+  }
+}

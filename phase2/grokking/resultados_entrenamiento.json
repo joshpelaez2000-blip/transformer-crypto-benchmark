@@ -1,0 +1,16 @@
+{
+  "mod_add": {
+    "name": "mod_add",
+    "epochs_trained": 1490,
+    "best_test_acc": 0.997236967086792,
+    "grok_epoch": 1390,
+    "elapsed_seconds": 539.0
+  },
+  "mod_xor": {
+    "name": "mod_xor",
+    "epochs_trained": 1140,
+    "best_test_acc": 0.9902231693267822,
+    "grok_epoch": 890,
+    "elapsed_seconds": 423.0
+  }
+}

@@ -1,0 +1,485 @@
+{
+  "nombre": "llama-3.3-70b-versatile",
+  "via": "groq_api",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 1,
+      "total": 10,
+      "accuracy": 10.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 2.0,
+  "tiempo_promedio_ms": 294.0,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 223.5
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "(958682846 + 3163119785) mod 2^32 = 4117720731 mod 2^32 = 4117720731 - 2^32 * 15 = 4117720731 - 4294967295 * 15 = 4117720731 - 64373809425 = 4117720731 - 64373809425 + 4294967295 = 4117720731 - 60070867030 +",
+      "respuesta_parsed": 60070867030,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 546.3
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2147483647",
+      "respuesta_parsed": 2147483647,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 198.1
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "939042955 + 2340505846 = 3279449801 \n\n3279449801 mod 2^32 = 3279449801 mod 4294967296 = 1035159409",
+      "respuesta_parsed": 1035159409,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 338.1
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1072015052",
+      "respuesta_parsed": 1072015052,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 232.6
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "6459454239",
+      "respuesta_parsed": 6459454239,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 275.2
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 128.1425952911377
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 120.60284614562988
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 120.73612213134766
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 119.27533149719238
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "2711092157",
+      "respuesta_parsed": 2711092157,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 270.5
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 122.41220474243164
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 131.0446262359619
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 123.14128875732422
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 128.83830070495605
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 130.9678554534912
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 121.36340141296387
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 156.16321563720703
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 131.76798820495605
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "1054923178",
+      "respuesta_parsed": 1054923178,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 267.4
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 131.89220428466797
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 123.14558029174805
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 128.89337539672852
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 121.54650688171387
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 128.71694564819336
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 123.04496765136719
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 131.95562362670898
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 120.90420722961426
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 118.56436729431152
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 121.07348442077637
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 154.1452407836914
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 146.9552516937256
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 130.92732429504395
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 117.98691749572754
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 143.64218711853027
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 135.07866859436035
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 136.8255615234375
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 132.65752792358398
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 130.9514045715332
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 122.96938896179199
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 123.09956550598145
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 121.32072448730469
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 149.4152545928955
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 142.85659790039062
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 118.5615062713623
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 131.1624050140381
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 141.61419868469238
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 152.6200771331787
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 124.03559684753418
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_modelo": null,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "error_api": "429 Client Error: Too Many Requests for url: https://api.groq.com/openai/v1/chat/completions",
+      "tiempo_ms": 129.8840045928955
+    }
+  ]
+}

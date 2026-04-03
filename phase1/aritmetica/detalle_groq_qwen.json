@@ -1,0 +1,464 @@
+{
+  "agent_id": "groq_qwen",
+  "nombre": "Qwen3 32B",
+  "provider": "groq",
+  "model": "qwen/qwen3-32b",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 4,
+      "total": 10,
+      "accuracy": 40.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 8.0,
+  "tiempo_promedio_ms": 5978.7,
+  "errores_api": 12,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3927559156",
+      "respuesta_parsed": 3927559156,
+      "respuesta_correcta": 3927559156,
+      "acerto": true,
+      "tiempo_ms": 6441.7
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "<think>\nOkay, let's see. The user wants me to calculate (A + B) mod 2^32 where A is 958,682,846 and B is 3,163,119,785. Hmm. Alright, first, I need to add these two numbers together. Let me do that step by step.\n\nSo, adding 958,682,846 and 3,163,119,785. Let me add them. Let's break it down:\n\n958,68",
+      "respuesta_parsed": 4,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 8348.4
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1940118535",
+      "respuesta_parsed": 1940118535,
+      "respuesta_correcta": 1940118535,
+      "acerto": true,
+      "tiempo_ms": 473.5
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5254.7
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "3607662092",
+      "respuesta_parsed": 3607662092,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 6108.5
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2008459175",
+      "respuesta_parsed": 2008459175,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 5342.6
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "A + B = 1461364854 + 667779376 = 2129144230  \n(2129144230) mod 2^32 = 2129144230  \n\n2129144230",
+      "respuesta_parsed": 2129144230,
+      "respuesta_correcta": 2129144230,
+      "acerto": true,
+      "tiempo_ms": 7066.9
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate (A + B) mod 2^32 where A is 1445662585 and B is 398340369. Hmm, first I should add A and B together. Let me do that step first. \n\nAdding 1445662585 and 398340369. Let me check the addition. 1445662585 plus 398340369. Let me add them digit by digit. \n\n1445",
+      "respuesta_parsed": 1843002954,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 5202.0
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate (A + B) mod 2^32 where A is 415,393,687 and B is 3,639,960,595. Hmm, first step is to add A and B together. Let me do that addition first.\n\nAdding 415,393,687 and 3,639,960,595. Let me write them down:\n\n415,393,687\n+ 3,639,960,595\n= ?\n\nAdding the numbers:",
+      "respuesta_parsed": 15,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 4651.9
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate (A + B) mod 2^32 where A is 2592983555 and B is 3466589567. Hmm, first step is to add A and B. Let me do that.\n\nAdding 2,592,983,555 and 3,466,589,567. Let me add them step by step. 2,592,983,555 plus 3,466,589,567. Let me check the units place first. 5 +",
+      "respuesta_parsed": 1764605826,
+      "respuesta_correcta": 1764605826,
+      "acerto": true,
+      "tiempo_ms": 3348.0
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "1076425821",
+      "respuesta_parsed": 1076425821,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 440.6
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "3765049842",
+      "respuesta_parsed": 3765049842,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 6646.8
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "3221225472",
+      "respuesta_parsed": 3221225472,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 6881.1
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "2592585288",
+      "respuesta_parsed": 2592585288,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 5919.2
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5467.5
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate A XOR B where A is 1589915144 and B is 2783290795. XOR is a bitwise operation, right? So each bit in the result is 1 if the corresponding bits of A and B are different, and 0 if they're the same. \n\nFirst, I should convert both numbers into their binary re",
+      "respuesta_parsed": 158,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 5621.2
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 306.7
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5651.4
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "A XOR B = 3971821550",
+      "respuesta_parsed": 3971821550,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 21620.2
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate A XOR B where A is 1354860540 and B is 1149938334. First, I remember that XOR is a bitwise operation where each bit of the result is 1 if the corresponding bits of the operands are different, and 0 if they are the same.\n\nSo, the straightforward way is to ",
+      "respuesta_parsed": 169357567,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 4738.8
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to rotate the bits of the number 1351531223 to the right by 21 positions in a 32-bit register. Hmm, rotating bits... Right rotation means that when you shift right, the bits that fall off the end are wrapped around to the left side.\n\nFirst, I should convert the decima",
+      "respuesta_parsed": 1,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 4607.5
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "1072090968",
+      "respuesta_parsed": 1072090968,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 2627.4
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "1040187213",
+      "respuesta_parsed": 1040187213,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 5718.4
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5418.6
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5554.1
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 215539.",
+      "respuesta_parsed": 215539,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 6181.6
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to rotate the bits of the number A=4284391408 to the right by N=17 positions in a 32-bit register. Hmm, bit rotation can be a bit tricky, but I'll take it step by step.\n\nFirst, I remember that rotating bits right by N positions means that each bit moves to the right b",
+      "respuesta_parsed": 32,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 5964.8
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "<think>\nOkay, let's tackle this problem. I need to rotate the bits of the number A (which is 2119634399) to the right by N positions (which is 25) in a 32-bit register. Hmm, rotating bits can be a bit tricky, especially when dealing with a specific number of positions. Let me break it down step by s",
+      "respuesta_parsed": 7,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 3346.2
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 1680960573.",
+      "respuesta_parsed": 1680960573,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 952.9
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "365330570",
+      "respuesta_parsed": 365330570,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 14335.5
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "268435440",
+      "respuesta_parsed": 268435440,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 5365.4
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "1800372225",
+      "respuesta_parsed": 1800372225,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 5865.8
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "<think>\nOkay, I need to compute the bitwise AND of two numbers, A=2752909971 and B=479112937. Let me recall how the bitwise AND operation works. Each bit in the result is 1 only if both corresponding bits in A and B are 1; otherwise, it's 0.\n\nFirst, I should convert both numbers into their binary re",
+      "respuesta_parsed": 10,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 6819.1
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1863800450",
+      "respuesta_parsed": 1863800450,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 1043.5
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "2501787647",
+      "respuesta_parsed": 2501787647,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 8211.3
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "0",
+      "respuesta_parsed": 0,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 5542.7
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1353728",
+      "respuesta_parsed": 1353728,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 5467.9
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5443.4
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "<think>\nOkay, let's see. I need to calculate the bitwise AND of two numbers, A and B. A is 248,786,714 and B is 4,067,116,918. Hmm, bitwise AND means I have to compare each corresponding bit of the two numbers and output 1 only if both bits are 1, otherwise 0. \n\nFirst, I should convert both numbers ",
+      "respuesta_parsed": 1,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 7549.5
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 359.3
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5631.9
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado es 1068629703.",
+      "respuesta_parsed": 1068629703,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 6458.9
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado es 1292069196.",
+      "respuesta_parsed": 1292069196,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 6001.6
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "3415932904",
+      "respuesta_parsed": 3415932904,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 11320.7
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "<think>\nOkay, let's tackle this problem step by step. The user wants me to calculate ((A + B) mod 4294967296) XOR C, where A is 2873237671, B is 2030106617, and C is 3369914783. Alright, first things first, I need to add A and B together.\n\nSo, A + B would be 2873237671 plus 2030106617. Let me do tha",
+      "respuesta_parsed": 435,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 3907.7
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "<think>\nOkay, let me try to figure out how to solve this problem. The user wants me to calculate ((A + B) mod 4294967296) XOR C, where A is 3468173213, B is 817804383, and C is 1851350739. Alright, let's break this down step by step.\n\nFirst, I need to add A and B. Let me do that. A is 3,468,173,213 ",
+      "respuesta_parsed": 1,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 5318.4
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 320.1
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "2257761805",
+      "respuesta_parsed": 2257761805,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 5733.5
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 7016.9
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "acerto": false,
+      "error": "HTTP Error 429: Too Many Requests",
+      "tiempo_ms": 5563.1
+    }
+  ]
+}

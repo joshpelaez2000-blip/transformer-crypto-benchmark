@@ -1,0 +1,412 @@
+[
+  {
+    "id": 1,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=2746317213 y B=1181241943. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 2746317213,
+    "b": 1181241943,
+    "respuesta_correcta": 3927559156
+  },
+  {
+    "id": 2,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=958682846 y B=3163119785. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 958682846,
+    "b": 3163119785,
+    "respuesta_correcta": 4121802631
+  },
+  {
+    "id": 3,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=1812140441 y B=127978094. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 1812140441,
+    "b": 127978094,
+    "respuesta_correcta": 1940118535
+  },
+  {
+    "id": 4,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=939042955 y B=2340505846. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 939042955,
+    "b": 2340505846,
+    "respuesta_correcta": 3279548801
+  },
+  {
+    "id": 5,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=946785248 y B=2530876844. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 946785248,
+    "b": 2530876844,
+    "respuesta_correcta": 3477662092
+  },
+  {
+    "id": 6,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=3460967357 y B=2998485882. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 3460967357,
+    "b": 2998485882,
+    "respuesta_correcta": 2164485943
+  },
+  {
+    "id": 7,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=1461364854 y B=667779376. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 1461364854,
+    "b": 667779376,
+    "respuesta_correcta": 2129144230
+  },
+  {
+    "id": 8,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=1445662585 y B=398340369. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 1445662585,
+    "b": 398340369,
+    "respuesta_correcta": 1844002954
+  },
+  {
+    "id": 9,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=415393687 y B=3639960595. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 415393687,
+    "b": 3639960595,
+    "respuesta_correcta": 4055354282
+  },
+  {
+    "id": 10,
+    "categoria": "suma_mod32",
+    "prompt": "Calcula (A + B) mod 2^32 donde A=2592983555 y B=3466589567. Responde SOLO el n\u00famero, nada m\u00e1s.",
+    "a": 2592983555,
+    "b": 3466589567,
+    "respuesta_correcta": 1764605826
+  },
+  {
+    "id": 11,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=3134174160 y B=2303082117 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3134174160,
+    "b": 2303082117,
+    "respuesta_correcta": 864652629
+  },
+  {
+    "id": 12,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=1625792787 y B=2370996465 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1625792787,
+    "b": 2370996465,
+    "respuesta_correcta": 3988072930
+  },
+  {
+    "id": 13,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=3701002945 y B=2479708607 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3701002945,
+    "b": 2479708607,
+    "respuesta_correcta": 1331006334
+  },
+  {
+    "id": 14,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=3026113008 y B=433797840 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3026113008,
+    "b": 433797840,
+    "respuesta_correcta": 2911234848
+  },
+  {
+    "id": 15,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=1193887545 y B=1566942273 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1193887545,
+    "b": 1566942273,
+    "respuesta_correcta": 441246584
+  },
+  {
+    "id": 16,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=1589915144 y B=2783290795 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1589915144,
+    "b": 2783290795,
+    "respuesta_correcta": 4213279651
+  },
+  {
+    "id": 17,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=3131575764 y B=701808367 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3131575764,
+    "b": 701808367,
+    "respuesta_correcta": 2474423099
+  },
+  {
+    "id": 18,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=1629748727 y B=2392080953 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1629748727,
+    "b": 2392080953,
+    "respuesta_correcta": 4021796814
+  },
+  {
+    "id": 19,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=2940395823 y B=3332894265 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 2940395823,
+    "b": 3332894265,
+    "respuesta_correcta": 1776619286
+  },
+  {
+    "id": 20,
+    "categoria": "xor",
+    "prompt": "Calcula A XOR B donde A=1354860540 y B=1149938334 (operaci\u00f3n bit a bit). Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1354860540,
+    "b": 1149938334,
+    "respuesta_correcta": 340471138
+  },
+  {
+    "id": 21,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=1351531223, N=21. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 1351531223,
+    "n": 21,
+    "respuesta_correcta": 1977006724
+  },
+  {
+    "id": 22,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=2144181937, N=29. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 2144181937,
+    "n": 29,
+    "respuesta_correcta": 4268553611
+  },
+  {
+    "id": 23,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=1970753705, N=9. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 1970753705,
+    "n": 9,
+    "respuesta_correcta": 1421523880
+  },
+  {
+    "id": 24,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=599707677, N=24. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 599707677,
+    "n": 24,
+    "respuesta_correcta": 3201309987
+  },
+  {
+    "id": 25,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=2510777721, N=29. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 2510777721,
+    "n": 29,
+    "respuesta_correcta": 2906352588
+  },
+  {
+    "id": 26,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=2506254832, N=12. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 2506254832,
+    "n": 12,
+    "respuesta_correcta": 2668189222
+  },
+  {
+    "id": 27,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=4284391408, N=17. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 4284391408,
+    "n": 17,
+    "respuesta_correcta": 1341685679
+  },
+  {
+    "id": 28,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=2119634399, N=25. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 2119634399,
+    "n": 25,
+    "respuesta_correcta": 730263487
+  },
+  {
+    "id": 29,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=470939445, N=21. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 470939445,
+    "n": 21,
+    "respuesta_correcta": 2411309280
+  },
+  {
+    "id": 30,
+    "categoria": "rotacion",
+    "prompt": "Rota los bits del n\u00famero A hacia la derecha N posiciones en un registro de 32 bits. A=2922644564, N=20. Responde SOLO el n\u00famero decimal resultado, nada m\u00e1s.",
+    "a": 2922644564,
+    "n": 20,
+    "respuesta_correcta": 1078282979
+  },
+  {
+    "id": 31,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=272849424 y B=4278308761. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 272849424,
+    "b": 4278308761,
+    "respuesta_correcta": 268519952
+  },
+  {
+    "id": 32,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=2272528809 y B=3095476665. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 2272528809,
+    "b": 3095476665,
+    "respuesta_correcta": 2147486121
+  },
+  {
+    "id": 33,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=2752909971 y B=479112937. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 2752909971,
+    "b": 479112937,
+    "respuesta_correcta": 67502721
+  },
+  {
+    "id": 34,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=1867302554 y B=1948728483. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1867302554,
+    "b": 1948728483,
+    "respuesta_correcta": 1677984898
+  },
+  {
+    "id": 35,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=3919706735 y B=2615507143. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3919706735,
+    "b": 2615507143,
+    "respuesta_correcta": 2309060679
+  },
+  {
+    "id": 36,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=656439677 y B=3274958945. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 656439677,
+    "b": 3274958945,
+    "respuesta_correcta": 52455521
+  },
+  {
+    "id": 37,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=1392239675 y B=83651970. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1392239675,
+    "b": 83651970,
+    "respuesta_correcta": 16278530
+  },
+  {
+    "id": 38,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=3990448177 y B=1320763135. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3990448177,
+    "b": 1320763135,
+    "respuesta_correcta": 1285105713
+  },
+  {
+    "id": 39,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=248786714 y B=4067116918. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 248786714,
+    "b": 4067116918,
+    "respuesta_correcta": 37750546
+  },
+  {
+    "id": 40,
+    "categoria": "and",
+    "prompt": "Calcula A AND B (operaci\u00f3n bit a bit) donde A=3289233844 y B=2361388464. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3289233844,
+    "b": 2361388464,
+    "respuesta_correcta": 2215487920
+  },
+  {
+    "id": 41,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=1338811290, B=2791205006, C=2222971316. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1338811290,
+    "b": 2791205006,
+    "c": 2222971316,
+    "respuesta_correcta": 1918162332
+  },
+  {
+    "id": 42,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=519709079, B=965067727, C=1452066459. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 519709079,
+    "b": 965067727,
+    "c": 1452066459,
+    "respuesta_correcta": 250815485
+  },
+  {
+    "id": 43,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=945826486, B=2710566582, C=983297492. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 945826486,
+    "b": 2710566582,
+    "c": 983297492,
+    "respuesta_correcta": 3815492792
+  },
+  {
+    "id": 44,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=3888749350, B=3692105921, C=1022222125. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3888749350,
+    "b": 3692105921,
+    "c": 1022222125,
+    "respuesta_correcta": 4281824458
+  },
+  {
+    "id": 45,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=2873237671, B=2030106617, C=3369914783. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 2873237671,
+    "b": 2030106617,
+    "c": 3369914783,
+    "respuesta_correcta": 3969894719
+  },
+  {
+    "id": 46,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=3468173213, B=817804383, C=1851350739. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3468173213,
+    "b": 817804383,
+    "c": 1851350739,
+    "respuesta_correcta": 2435812655
+  },
+  {
+    "id": 47,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=1819256337, B=3131356954, C=422701550. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1819256337,
+    "b": 3131356954,
+    "c": 422701550,
+    "respuesta_correcta": 1042658501
+  },
+  {
+    "id": 48,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=3700855390, B=1067970820, C=1926780541. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 3700855390,
+    "b": 1067970820,
+    "c": 1926780541,
+    "respuesta_correcta": 1860621599
+  },
+  {
+    "id": 49,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=1811967841, B=1196342297, C=3965395580. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 1811967841,
+    "b": 1196342297,
+    "c": 3965395580,
+    "respuesta_correcta": 1595148550
+  },
+  {
+    "id": 50,
+    "categoria": "combinada",
+    "prompt": "Calcula ((A + B) mod 4294967296) XOR C donde A=2363629219, B=3590711152, C=4161807235. Responde SOLO el n\u00famero decimal, nada m\u00e1s.",
+    "a": 2363629219,
+    "b": 3590711152,
+    "c": 4161807235,
+    "respuesta_correcta": 2599953808
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "gpt2_forward_pass": {
+    "median_us": 28514.4,
+    "min_us": 27390.4,
+    "max_us": 31401.7,
+    "flops_per_pass": 170252350,
+    "gflops_achieved": 5.97,
+    "runs": 100
+  },
+  "sha256_python": {
+    "per_hash_us": 0.485,
+    "hashes_per_sec": 2063816,
+    "ops_per_hash": 2296,
+    "iterations": 1000000
+  },
+  "sha256_c_openssl": {
+    "per_hash_us": 0.4203,
+    "hashes_per_sec": 2379020,
+    "ops_per_hash": 2296,
+    "iterations": 10000000,
+    "compiler_flags": "-O3 -march=native"
+  },
+  "ratios": {
+    "gpt2_forward_us": 28514.4,
+    "sha256_python_us": 0.485,
+    "sha256_c_us": 0.4203,
+    "time_ratio_python": 58848,
+    "time_ratio_c": 67843,
+    "ops_ratio": 74152,
+    "gpt2_flops": 170252350,
+    "sha256_ops": 2296
+  }
+}

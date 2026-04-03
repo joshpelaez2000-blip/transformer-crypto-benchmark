@@ -1,0 +1,2536 @@
+{
+  "modelo": "gpt2",
+  "config": {
+    "n_layer": 12,
+    "n_head": 12,
+    "d_model": 768,
+    "d_head": 64,
+    "d_ff": 3072,
+    "vocab_size": 50257,
+    "seq_len": 1
+  },
+  "params_total": 124439808,
+  "capas": [
+    {
+      "nombre": "wte (token embedding)",
+      "tipo": "embedding",
+      "shape_pesos": [
+        50257,
+        768
+      ],
+      "params": 38597376,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "wpe (position embedding)",
+      "tipo": "embedding",
+      "shape_pesos": [
+        1024,
+        768
+      ],
+      "params": 786432,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "embedding_sum (token + position)",
+      "tipo": "addition",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.0.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.0.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.0.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.0.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.1.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.1.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.1.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.1.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.2.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.2.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.2.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.2.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.3.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.3.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.3.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.3.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.4.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.4.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.4.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.4.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.5.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.5.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.5.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.5.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.6.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.6.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.6.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.6.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.7.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.7.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.7.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.7.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.8.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.8.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.8.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.8.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.9.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.9.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.9.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.9.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.10.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.10.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.10.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.10.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.ln_1 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.11.attn.q_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.attn.k_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.attn.v_proj",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.attn.scores (Q@K^T/sqrt(dk))",
+      "tipo": "attention_scores",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 756,
+        "exp": 0,
+        "div": 12,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.11.attn.softmax",
+      "tipo": "softmax",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 0,
+        "exp": 12,
+        "div": 12,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.attn.output (weights@V)",
+      "tipo": "attention_output",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 768,
+        "sum_float32": 0,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.attn.c_proj (output projection)",
+      "tipo": "attention_projection",
+      "shape_pesos": [
+        768,
+        768
+      ],
+      "params": 590592,
+      "ops": {
+        "mul_float32": 589824,
+        "sum_float32": 589824,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.residual_1",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.ln_2 (layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    },
+    {
+      "nombre": "h.11.mlp.c_fc (FFN up)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        768,
+        3072
+      ],
+      "params": 2362368,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.mlp.gelu",
+      "tipo": "activation",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 12288,
+        "sum_float32": 6144,
+        "exp": 3072,
+        "div": 3072,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.mlp.c_proj (FFN down)",
+      "tipo": "feedforward",
+      "shape_pesos": [
+        3072,
+        768
+      ],
+      "params": 2360064,
+      "ops": {
+        "mul_float32": 2359296,
+        "sum_float32": 2359296,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "h.11.residual_2",
+      "tipo": "residual",
+      "shape_pesos": [],
+      "params": 0,
+      "ops": {
+        "mul_float32": 0,
+        "sum_float32": 768,
+        "exp": 0,
+        "div": 0,
+        "sqrt": 0
+      }
+    },
+    {
+      "nombre": "ln_f (final layernorm)",
+      "tipo": "layernorm",
+      "shape_pesos": [
+        768
+      ],
+      "params": 1536,
+      "ops": {
+        "mul_float32": 1536,
+        "sum_float32": 3070,
+        "exp": 0,
+        "div": 770,
+        "sqrt": 1
+      }
+    }
+  ],
+  "total_ops_por_token": {
+    "mul_float32": 85138944,
+    "sum_float32": 85113406,
+    "exp": 37008,
+    "div": 56402,
+    "sqrt": 37,
+    "total_flops": 170252350
+  },
+  "params_verificacion": {
+    "calculado": 124439808,
+    "pytorch": 124439808,
+    "match": true
+  }
+}

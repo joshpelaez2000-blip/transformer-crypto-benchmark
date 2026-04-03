@@ -1,0 +1,488 @@
+{
+  "agent_id": "ollama_llama3",
+  "nombre": "LLaMA 3 8B",
+  "provider": "ollama",
+  "model": "llama3:latest",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 4024.5,
+  "errores_api": 0,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1175115035",
+      "respuesta_parsed": 1175115035,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 37266.5
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1071111613",
+      "respuesta_parsed": 1071111613,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 2466.5
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1429414777",
+      "respuesta_parsed": 1429414777,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 2903.3
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1555861",
+      "respuesta_parsed": 1555861,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 2293.5
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1114095116",
+      "respuesta_parsed": 1114095116,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 2359.5
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1543578519",
+      "respuesta_parsed": 1543578519,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 2481.2
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1454165806",
+      "respuesta_parsed": 1454165806,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 2447.9
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "21521137",
+      "respuesta_parsed": 21521137,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 2229.1
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "16713913",
+      "respuesta_parsed": 16713913,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 2331.7
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "145794511",
+      "respuesta_parsed": 145794511,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 2453.6
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "1445116163",
+      "respuesta_parsed": 1445116163,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 3094.7
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "1234567891",
+      "respuesta_parsed": 1234567891,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 2759.4
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "1061010110",
+      "respuesta_parsed": 1061010110,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 2775.4
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "The result of the bitwise XOR operation (A ^ B) is:\n\n1391114240",
+      "respuesta_parsed": 1391114240,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 5081.0
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "1070932119",
+      "respuesta_parsed": 1070932119,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 3430.2
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "1075504417",
+      "respuesta_parsed": 1075504417,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 2766.6
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "1341395123",
+      "respuesta_parsed": 1341395123,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 2807.7
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "1074271369",
+      "respuesta_parsed": 1074271369,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 3211.0
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "1655422111",
+      "respuesta_parsed": 1655422111,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 2854.3
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "1228807306",
+      "respuesta_parsed": 1228807306,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 2758.9
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "1671232331",
+      "respuesta_parsed": 1671232331,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 3657.9
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "111011101110100000101001111",
+      "respuesta_parsed": 111011101110100000101001111,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 3198.9
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "1319875503",
+      "respuesta_parsed": 1319875503,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 2412.7
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "4294970241",
+      "respuesta_parsed": 4294970241,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 2470.0
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "1674307953",
+      "respuesta_parsed": 1674307953,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 2971.8
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "16711680",
+      "respuesta_parsed": 16711680,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 2231.8
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "104435520",
+      "respuesta_parsed": 104435520,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 2255.9
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "1643519111",
+      "respuesta_parsed": 1643519111,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 2500.7
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "1573171847",
+      "respuesta_parsed": 1573171847,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 2453.7
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "1441131368",
+      "respuesta_parsed": 1441131368,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 2504.8
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A (272849424) and B (4278308761) is:\n\n135571520",
+      "respuesta_parsed": 135571520,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 6764.6
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "1457955774",
+      "respuesta_parsed": 1457955774,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 2525.3
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "The bitwise AND operation between A=2752909971 and B=479112937 is:\n\nA & B = 479112896",
+      "respuesta_parsed": 479112896,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 6198.6
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1867302554 AND 1948728483 = 1847467526",
+      "respuesta_parsed": 1847467526,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 5039.5
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A and B is:\n\n1853455111",
+      "respuesta_parsed": 1853455111,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 4720.2
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "The binary operation AND between A=0x19C7F3D5 and B=0x31B6E53F is:\n\n0x18C2F1DF",
+      "respuesta_parsed": null,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 7829.9
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A=1392239675 and B=83651970 is:\n\n2460516",
+      "respuesta_parsed": 2460516,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 5899.4
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A=3990448177 and B=1320763135 is:\n\n1044250759",
+      "respuesta_parsed": 1044250759,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 6147.6
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A and B is:\n\n1398246",
+      "respuesta_parsed": 1398246,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 4736.3
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "8387201208",
+      "respuesta_parsed": 8387201208,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 2545.6
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "1406514418",
+      "respuesta_parsed": 1406514418,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 3731.2
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "1413174413",
+      "respuesta_parsed": 1413174413,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 2983.9
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "The result is: 3428252167",
+      "respuesta_parsed": 3428252167,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 3631.6
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "3644449419",
+      "respuesta_parsed": 3644449419,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 3152.0
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "1455835505",
+      "respuesta_parsed": 1455835505,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 2919.5
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "2344122274",
+      "respuesta_parsed": 2344122274,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 2823.6
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "141721511",
+      "respuesta_parsed": 141721511,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 2681.4
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "2941153197",
+      "respuesta_parsed": 2941153197,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 3321.5
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "3423451233",
+      "respuesta_parsed": 3423451233,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 2991.6
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "1413574414",
+      "respuesta_parsed": 1413574414,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 3149.9
+    }
+  ]
+}

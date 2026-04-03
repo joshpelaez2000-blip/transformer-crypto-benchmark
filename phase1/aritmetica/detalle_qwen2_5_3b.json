@@ -1,0 +1,485 @@
+{
+  "nombre": "qwen2.5:3b",
+  "via": "ollama_asus",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 5405.4,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "392755919",
+      "respuesta_parsed": 392755919,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 21936.7
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1094994823",
+      "respuesta_parsed": 1094994823,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 2775.3
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "659998095",
+      "respuesta_parsed": 659998095,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 3400.1
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1789558401",
+      "respuesta_parsed": 1789558401,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 3455.6
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1000000000",
+      "respuesta_parsed": 1000000000,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 3511.2
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "6459453241",
+      "respuesta_parsed": 6459453241,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 8269.5
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1040899590",
+      "respuesta_parsed": 1040899590,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 5097.8
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "172999799",
+      "respuesta_parsed": 172999799,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 4738.2
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1299354443",
+      "respuesta_parsed": 1299354443,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 6610.1
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "100254257",
+      "respuesta_parsed": 100254257,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 2900.0
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "549662043",
+      "respuesta_parsed": 549662043,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 3859.7
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "1144204179",
+      "respuesta_parsed": 1144204179,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 3704.7
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "112410596",
+      "respuesta_parsed": 112410596,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 2828.7
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "1295134408",
+      "respuesta_parsed": 1295134408,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 3753.2
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "407464759",
+      "respuesta_parsed": 407464759,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 3594.4
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "634375651",
+      "respuesta_parsed": 634375651,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 3587.3
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "12329",
+      "respuesta_parsed": 12329,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 7843.8
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "1122322125",
+      "respuesta_parsed": 1122322125,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 5320.5
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "1277596441",
+      "respuesta_parsed": 1277596441,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 5654.9
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "200527206",
+      "respuesta_parsed": 200527206,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 5310.0
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "46980756",
+      "respuesta_parsed": 46980756,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 9990.3
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "6502499",
+      "respuesta_parsed": 6502499,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 3307.0
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "46878921",
+      "respuesta_parsed": 46878921,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 3048.9
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "14",
+      "respuesta_parsed": 14,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 2187.9
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "4864999",
+      "respuesta_parsed": 4864999,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 3346.1
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "9765626",
+      "respuesta_parsed": 9765626,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 2798.0
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "169552096",
+      "respuesta_parsed": 169552096,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 3171.0
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "18267859",
+      "respuesta_parsed": 18267859,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 2176.7
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "86969",
+      "respuesta_parsed": 86969,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 2664.0
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "17894",
+      "respuesta_parsed": 17894,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 4218.6
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "546074880",
+      "respuesta_parsed": 546074880,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 16432.0
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "1269126463",
+      "respuesta_parsed": 1269126463,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 2075.1
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "8993",
+      "respuesta_parsed": 8993,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 1660.3
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "1867302554",
+      "respuesta_parsed": 1867302554,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 2292.9
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "899489477",
+      "respuesta_parsed": 899489477,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 18541.0
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "1600326783",
+      "respuesta_parsed": 1600326783,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 19079.1
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "1249094461",
+      "respuesta_parsed": 1249094461,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 14965.1
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "1320763135",
+      "respuesta_parsed": 1320763135,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 3505.0
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "3675347542",
+      "respuesta_parsed": 3675347542,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 2823.1
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "5700623108",
+      "respuesta_parsed": 5700623108,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 3479.1
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "4677097583",
+      "respuesta_parsed": 4677097583,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 4898.2
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "3885938343",
+      "respuesta_parsed": 3885938343,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 3185.1
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "1234567890",
+      "respuesta_parsed": 1234567890,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 4470.7
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "1234567890",
+      "respuesta_parsed": 1234567890,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 4580.3
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "5232148470",
+      "respuesta_parsed": 5232148470,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 3760.0
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "123456789",
+      "respuesta_parsed": 123456789,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 3872.3
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "1965538275",
+      "respuesta_parsed": 1965538275,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 4049.8
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "1234567890",
+      "respuesta_parsed": 1234567890,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 3208.5
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "1234567890",
+      "respuesta_parsed": 1234567890,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 4015.5
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "123456789",
+      "respuesta_parsed": 123456789,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 4318.1
+    }
+  ]
+}

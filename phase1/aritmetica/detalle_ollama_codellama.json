@@ -1,0 +1,488 @@
+{
+  "agent_id": "ollama_codellama",
+  "nombre": "CodeLlama 7B",
+  "provider": "ollama",
+  "model": "codellama:latest",
+  "resultados": {
+    "suma_mod32": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "xor": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "rotacion": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "and": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    },
+    "combinada": {
+      "correctas": 0,
+      "total": 10,
+      "accuracy": 0.0
+    }
+  },
+  "accuracy_total": 0.0,
+  "tiempo_promedio_ms": 9209.2,
+  "errores_api": 0,
+  "detalle": [
+    {
+      "id": 1,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2746317213",
+      "respuesta_parsed": 2746317213,
+      "respuesta_correcta": 3927559156,
+      "acerto": false,
+      "tiempo_ms": 27379.4
+    },
+    {
+      "id": 2,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "958682846",
+      "respuesta_parsed": 958682846,
+      "respuesta_correcta": 4121802631,
+      "acerto": false,
+      "tiempo_ms": 3806.5
+    },
+    {
+      "id": 3,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "1812140441 + 127978094 = 1835129435",
+      "respuesta_parsed": 1835129435,
+      "respuesta_correcta": 1940118535,
+      "acerto": false,
+      "tiempo_ms": 6978.5
+    },
+    {
+      "id": 4,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "El resultado de la operación (A + B) mod 2^32 es:\n\n1073098442",
+      "respuesta_parsed": 1073098442,
+      "respuesta_correcta": 3279548801,
+      "acerto": false,
+      "tiempo_ms": 6746.4
+    },
+    {
+      "id": 5,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "La respuesta es: 1538269888",
+      "respuesta_parsed": 1538269888,
+      "respuesta_correcta": 3477662092,
+      "acerto": false,
+      "tiempo_ms": 4715.0
+    },
+    {
+      "id": 6,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "La respuesta es: 1030961333.",
+      "respuesta_parsed": 1030961333,
+      "respuesta_correcta": 2164485943,
+      "acerto": false,
+      "tiempo_ms": 4780.6
+    },
+    {
+      "id": 7,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "El resultado de la operación es 1759019526.",
+      "respuesta_parsed": 1759019526,
+      "respuesta_correcta": 2129144230,
+      "acerto": false,
+      "tiempo_ms": 5158.4
+    },
+    {
+      "id": 8,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "La respuesta es: 398340369.",
+      "respuesta_parsed": 398340369,
+      "respuesta_correcta": 1844002954,
+      "acerto": false,
+      "tiempo_ms": 4590.4
+    },
+    {
+      "id": 9,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "415393687 + 3639960595 = 7893927562",
+      "respuesta_parsed": 7893927562,
+      "respuesta_correcta": 4055354282,
+      "acerto": false,
+      "tiempo_ms": 7283.9
+    },
+    {
+      "id": 10,
+      "categoria": "suma_mod32",
+      "respuesta_raw": "2592983555",
+      "respuesta_parsed": 2592983555,
+      "respuesta_correcta": 1764605826,
+      "acerto": false,
+      "tiempo_ms": 3866.2
+    },
+    {
+      "id": 11,
+      "categoria": "xor",
+      "respuesta_raw": "La operación XOR entre los números 3134174160 y 2303082117 resulta en el número decimal 5237955987.",
+      "respuesta_parsed": 5237955987,
+      "respuesta_correcta": 864652629,
+      "acerto": false,
+      "tiempo_ms": 10251.2
+    },
+    {
+      "id": 12,
+      "categoria": "xor",
+      "respuesta_raw": "La operación XOR entre 1625792787 y 2370996465 es 2149019112.",
+      "respuesta_parsed": 2149019112,
+      "respuesta_correcta": 3988072930,
+      "acerto": false,
+      "tiempo_ms": 8679.6
+    },
+    {
+      "id": 13,
+      "categoria": "xor",
+      "respuesta_raw": "La operación XOR entre los números 3701002945 y 2479708607 es igual a:\n\n3701002945 XOR 2479708607 = 2800777552",
+      "respuesta_parsed": 2800777552,
+      "respuesta_correcta": 1331006334,
+      "acerto": false,
+      "tiempo_ms": 13172.8
+    },
+    {
+      "id": 14,
+      "categoria": "xor",
+      "respuesta_raw": "The result of the XOR operation between 3026113008 and 433797840 in binary is:\n\n3026113008 XOR 433797840 = 2310957848",
+      "respuesta_parsed": 2310957848,
+      "respuesta_correcta": 2911234848,
+      "acerto": false,
+      "tiempo_ms": 12578.9
+    },
+    {
+      "id": 15,
+      "categoria": "xor",
+      "respuesta_raw": "El resultado de la operación bit a bit entre 1193887545 y 1566942273 es 3763071680.",
+      "respuesta_parsed": 3763071680,
+      "respuesta_correcta": 441246584,
+      "acerto": false,
+      "tiempo_ms": 9554.7
+    },
+    {
+      "id": 16,
+      "categoria": "xor",
+      "respuesta_raw": "La operación bit a bit de 1589915144 XOR 2783290795 es:\n\n1362934349",
+      "respuesta_parsed": 1362934349,
+      "respuesta_correcta": 4213279651,
+      "acerto": false,
+      "tiempo_ms": 9127.6
+    },
+    {
+      "id": 17,
+      "categoria": "xor",
+      "respuesta_raw": "La operación XOR entre 3131575764 y 701808367 en notación binaria es:\n\n10101101 11010001 10110010 10011000 XOR 01100010 10110001 10110011 10011010 =\n\n2045389766",
+      "respuesta_parsed": 2045389766,
+      "respuesta_correcta": 2474423099,
+      "acerto": false,
+      "tiempo_ms": 20336.7
+    },
+    {
+      "id": 18,
+      "categoria": "xor",
+      "respuesta_raw": "El resultado de la operación bit a bit entre 1629748727 y 2392080953 es: 1376643118.",
+      "respuesta_parsed": 1376643118,
+      "respuesta_correcta": 4021796814,
+      "acerto": false,
+      "tiempo_ms": 9679.1
+    },
+    {
+      "id": 19,
+      "categoria": "xor",
+      "respuesta_raw": "2940395823 XOR 3332894265 = 2973284142",
+      "respuesta_parsed": 2973284142,
+      "respuesta_correcta": 1776619286,
+      "acerto": false,
+      "tiempo_ms": 7735.4
+    },
+    {
+      "id": 20,
+      "categoria": "xor",
+      "respuesta_raw": "El resultado de la operación bit a bit entre 1354860540 y 1149938334 en CodeLlama 7B es:\n\n2470836399",
+      "respuesta_parsed": 2470836399,
+      "respuesta_correcta": 340471138,
+      "acerto": false,
+      "tiempo_ms": 10721.6
+    },
+    {
+      "id": 21,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es 31223.",
+      "respuesta_parsed": 31223,
+      "respuesta_correcta": 1977006724,
+      "acerto": false,
+      "tiempo_ms": 4922.8
+    },
+    {
+      "id": 22,
+      "categoria": "rotacion",
+      "respuesta_raw": "La rotación de los bits del número A hacia la derecha N posiciones en un registro de 32 bits daría como resultado el número:\n\n2144181937 >> 29 = 207\n\nEl número decimal resultante es 207.",
+      "respuesta_parsed": 207,
+      "respuesta_correcta": 4268553611,
+      "acerto": false,
+      "tiempo_ms": 11701.7
+    },
+    {
+      "id": 23,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultado es: 1970753705",
+      "respuesta_parsed": 1970753705,
+      "respuesta_correcta": 1421523880,
+      "acerto": false,
+      "tiempo_ms": 4554.6
+    },
+    {
+      "id": 24,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es: 2147483647",
+      "respuesta_parsed": 2147483647,
+      "respuesta_correcta": 3201309987,
+      "acerto": false,
+      "tiempo_ms": 4261.4
+    },
+    {
+      "id": 25,
+      "categoria": "rotacion",
+      "respuesta_raw": "La respuesta es 65280",
+      "respuesta_parsed": 65280,
+      "respuesta_correcta": 2906352588,
+      "acerto": false,
+      "tiempo_ms": 3533.1
+    },
+    {
+      "id": 26,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultado de rotar los bits del número A hacia la derecha N posiciones en un registro de 32 bits es: 32769.",
+      "respuesta_parsed": 32769,
+      "respuesta_correcta": 2668189222,
+      "acerto": false,
+      "tiempo_ms": 7456.6
+    },
+    {
+      "id": 27,
+      "categoria": "rotacion",
+      "respuesta_raw": "The number of positions to shift the bits of A to the right is N = 17. The value of A before shifting is 4284391408. After shifting, the result will be:\n\n4284391408 >> 17 = 65473\n\nTherefore, the decimal result is 65473.",
+      "respuesta_parsed": 65473,
+      "respuesta_correcta": 1341685679,
+      "acerto": false,
+      "tiempo_ms": 14705.1
+    },
+    {
+      "id": 28,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultado es 170308544.",
+      "respuesta_parsed": 170308544,
+      "respuesta_correcta": 730263487,
+      "acerto": false,
+      "tiempo_ms": 4482.0
+    },
+    {
+      "id": 29,
+      "categoria": "rotacion",
+      "respuesta_raw": "El número decimal resultado es: 470939445.",
+      "respuesta_parsed": 470939445,
+      "respuesta_correcta": 2411309280,
+      "acerto": false,
+      "tiempo_ms": 4701.4
+    },
+    {
+      "id": 30,
+      "categoria": "rotacion",
+      "respuesta_raw": "El resultado es: 2922644564 >> 20 = 18446744073.",
+      "respuesta_parsed": 18446744073,
+      "respuesta_correcta": 1078282979,
+      "acerto": false,
+      "tiempo_ms": 6789.5
+    },
+    {
+      "id": 31,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación AND entre los números 272849424 y 4278308761 es:\n\n272849424 & 4278308761 = 4278308761",
+      "respuesta_parsed": 4278308761,
+      "respuesta_correcta": 268519952,
+      "acerto": false,
+      "tiempo_ms": 13312.5
+    },
+    {
+      "id": 32,
+      "categoria": "and",
+      "respuesta_raw": "2272528809 & 3095476665 = 2079173727",
+      "respuesta_parsed": 2079173727,
+      "respuesta_correcta": 2147486121,
+      "acerto": false,
+      "tiempo_ms": 7896.1
+    },
+    {
+      "id": 33,
+      "categoria": "and",
+      "respuesta_raw": "The result of the bitwise AND operation between A and B is 1876647023.",
+      "respuesta_parsed": 1876647023,
+      "respuesta_correcta": 67502721,
+      "acerto": false,
+      "tiempo_ms": 6154.0
+    },
+    {
+      "id": 34,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación bitwise AND entre 1867302554 (A) y 1948728483 (B) es:\n\n1867302554 & 1948728483 = 1867302554",
+      "respuesta_parsed": 1867302554,
+      "respuesta_correcta": 1677984898,
+      "acerto": false,
+      "tiempo_ms": 13927.9
+    },
+    {
+      "id": 35,
+      "categoria": "and",
+      "respuesta_raw": "3919706735 & 2615507143 = 2615507143",
+      "respuesta_parsed": 2615507143,
+      "respuesta_correcta": 2309060679,
+      "acerto": false,
+      "tiempo_ms": 7449.9
+    },
+    {
+      "id": 36,
+      "categoria": "and",
+      "respuesta_raw": "La operación bit a bit entre 656439677 (A) y 3274958945 (B) da como resultado 1081896712.",
+      "respuesta_parsed": 1081896712,
+      "respuesta_correcta": 52455521,
+      "acerto": false,
+      "tiempo_ms": 9472.7
+    },
+    {
+      "id": 37,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación bit a bit entre 1392239675 y 83651970 es:\n\n1392239675 & 83651970 = 83651970",
+      "respuesta_parsed": 83651970,
+      "respuesta_correcta": 16278530,
+      "acerto": false,
+      "tiempo_ms": 11776.4
+    },
+    {
+      "id": 38,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación AND bit a bit entre los números 3990448177 (A) y 1320763135 (B) es 1300723275.",
+      "respuesta_parsed": 1300723275,
+      "respuesta_correcta": 1285105713,
+      "acerto": false,
+      "tiempo_ms": 10458.0
+    },
+    {
+      "id": 39,
+      "categoria": "and",
+      "respuesta_raw": "El resultado de la operación bit a bit AND entre los números 248786714 (A) y 4067116918 (B) es: 357835350",
+      "respuesta_parsed": 357835350,
+      "respuesta_correcta": 37750546,
+      "acerto": false,
+      "tiempo_ms": 10062.8
+    },
+    {
+      "id": 40,
+      "categoria": "and",
+      "respuesta_raw": "La operación bit a bit entre 3289233844 (A) y 2361388464 (B) da como resultado: 5072622908",
+      "respuesta_parsed": 5072622908,
+      "respuesta_correcta": 2215487920,
+      "acerto": false,
+      "tiempo_ms": 9833.6
+    },
+    {
+      "id": 41,
+      "categoria": "combinada",
+      "respuesta_raw": "La respuesta es: 4294967288.",
+      "respuesta_parsed": 4294967288,
+      "respuesta_correcta": 1918162332,
+      "acerto": false,
+      "tiempo_ms": 7974.2
+    },
+    {
+      "id": 42,
+      "categoria": "combinada",
+      "respuesta_raw": "La respuesta es 3684975084.",
+      "respuesta_parsed": 3684975084,
+      "respuesta_correcta": 250815485,
+      "acerto": false,
+      "tiempo_ms": 5372.2
+    },
+    {
+      "id": 43,
+      "categoria": "combinada",
+      "respuesta_raw": "((A + B) mod 4294967296) XOR C = 3304759148.",
+      "respuesta_parsed": 3304759148,
+      "respuesta_correcta": 3815492792,
+      "acerto": false,
+      "tiempo_ms": 7905.5
+    },
+    {
+      "id": 44,
+      "categoria": "combinada",
+      "respuesta_raw": "9392988874",
+      "respuesta_parsed": 9392988874,
+      "respuesta_correcta": 4281824458,
+      "acerto": false,
+      "tiempo_ms": 4483.0
+    },
+    {
+      "id": 45,
+      "categoria": "combinada",
+      "respuesta_raw": "El resultado de la operación es: 3153134243.",
+      "respuesta_parsed": 3153134243,
+      "respuesta_correcta": 3969894719,
+      "acerto": false,
+      "tiempo_ms": 5975.7
+    },
+    {
+      "id": 46,
+      "categoria": "combinada",
+      "respuesta_raw": "3468173213 + 817804383 = 9646811046\n\n(9646811046 mod 4294967296) XOR 1851350739 = 1588811613",
+      "respuesta_parsed": 1588811613,
+      "respuesta_correcta": 2435812655,
+      "acerto": false,
+      "tiempo_ms": 15118.6
+    },
+    {
+      "id": 47,
+      "categoria": "combinada",
+      "respuesta_raw": "((A + B) mod 4294967296) XOR C = 3890169367",
+      "respuesta_parsed": 3890169367,
+      "respuesta_correcta": 1042658501,
+      "acerto": false,
+      "tiempo_ms": 7751.3
+    },
+    {
+      "id": 48,
+      "categoria": "combinada",
+      "respuesta_raw": "La operación es:\n\n((A + B) mod 4294967296) XOR C\n\ndonde A = 3700855390, B = 1067970820 y C = 1926780541.\n\nEl resultado es:\n\n(3700855390 + 1067970820) mod 4294967296 XOR 1926780541 = 1726684946\n\nEspero que esto sea lo que estabas buscando. Si necesitas más ayuda, no dudes en preguntar.",
+      "respuesta_parsed": 1726684946,
+      "respuesta_correcta": 1860621599,
+      "acerto": false,
+      "tiempo_ms": 28469.4
+    },
+    {
+      "id": 49,
+      "categoria": "combinada",
+      "respuesta_raw": "1479594951",
+      "respuesta_parsed": 1479594951,
+      "respuesta_correcta": 1595148550,
+      "acerto": false,
+      "tiempo_ms": 4501.3
+    },
+    {
+      "id": 50,
+      "categoria": "combinada",
+      "respuesta_raw": "2363629219 + 3590711152 = 3950321271\n3950321271 mod 4294967296 = 1816678899\n1816678899 XOR 4161807235 = 2489378081",
+      "respuesta_parsed": 2489378081,
+      "respuesta_correcta": 2599953808,
+      "acerto": false,
+      "tiempo_ms": 18311.7
+    }
+  ]
+}
