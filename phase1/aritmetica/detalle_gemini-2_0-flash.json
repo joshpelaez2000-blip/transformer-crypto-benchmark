@@ -37,7 +37,7 @@
       "respuesta_modelo": null,
       "respuesta_correcta": 3927559156,
       "acerto": false,
-      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDDKvlDDp7XqAS_Mj4FYi1OJWjBEgdFAQ4",
+      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=REDACTED",
       "tiempo_ms": 263.2861137390137
     },
     {
@@ -46,7 +46,7 @@
       "respuesta_modelo": null,
       "respuesta_correcta": 4121802631,
       "acerto": false,
-      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDDKvlDDp7XqAS_Mj4FYi1OJWjBEgdFAQ4",
+      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=REDACTED",
       "tiempo_ms": 157.18579292297363
     },
     {
@@ -55,7 +55,7 @@
       "respuesta_modelo": null,
       "respuesta_correcta": 1940118535,
       "acerto": false,
-      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyDDKvlDDp7XqAS_Mj4FYi1OJWjBEgdFAQ4",
+      "error_api": "429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=REDACTED",
       "tiempo_ms": 155.51304817199707
     }
   ]

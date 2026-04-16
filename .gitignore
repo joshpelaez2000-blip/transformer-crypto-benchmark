@@ -2,7 +2,14 @@ __pycache__/
 *.pyc
 *.pyo
 .env
+*.env
 *.api_keys
+.api_keys
+*api_key*
+API_KEYS.txt
+credentials*
+secrets*
+*.sqlite3
 *.pt
 *.pth
 venv/
